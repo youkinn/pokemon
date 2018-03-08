@@ -1,0 +1,99 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json",
+			"name": "preload"
+		},
+		{
+			"keys": "21000_12_1_png,21000_12_2_png,21000_12_3_png,21000_12_4_png,back_server_png,create_chose_role_png,create_role_bg_jpg,role_name_bg_png,role_4_png,role_3_png,role_2_png,role_1_png,main1_png,login_ball_png",
+			"name": "create_role"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/create_role/21000_12_1.png",
+			"type": "image",
+			"name": "21000_12_1_png"
+		},
+		{
+			"url": "assets/create_role/21000_12_2.png",
+			"type": "image",
+			"name": "21000_12_2_png"
+		},
+		{
+			"url": "assets/create_role/21000_12_3.png",
+			"type": "image",
+			"name": "21000_12_3_png"
+		},
+		{
+			"url": "assets/create_role/21000_12_4.png",
+			"type": "image",
+			"name": "21000_12_4_png"
+		},
+		{
+			"url": "assets/create_role/back_server.png",
+			"type": "image",
+			"name": "back_server_png"
+		},
+		{
+			"url": "assets/create_role/create_chose_role.png",
+			"type": "image",
+			"name": "create_chose_role_png"
+		},
+		{
+			"url": "assets/create_role/create_role_bg.jpg",
+			"type": "image",
+			"name": "create_role_bg_jpg"
+		},
+		{
+			"url": "assets/create_role/login_ball.png",
+			"type": "image",
+			"name": "login_ball_png"
+		},
+		{
+			"url": "assets/create_role/main1.png",
+			"type": "image",
+			"name": "main1_png"
+		},
+		{
+			"url": "assets/create_role/role_1.png",
+			"type": "image",
+			"name": "role_1_png"
+		},
+		{
+			"url": "assets/create_role/role_2.png",
+			"type": "image",
+			"name": "role_2_png"
+		},
+		{
+			"url": "assets/create_role/role_3.png",
+			"type": "image",
+			"name": "role_3_png"
+		},
+		{
+			"url": "assets/create_role/role_4.png",
+			"type": "image",
+			"name": "role_4_png"
+		},
+		{
+			"url": "assets/create_role/role_name_bg.png",
+			"type": "image",
+			"name": "role_name_bg_png"
+		}
+	]
+}
