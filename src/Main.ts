@@ -80,7 +80,6 @@ class Main extends egret.DisplayObjectContainer {
         RES.addEventListener(RES.ResourceEvent.GROUP_LOAD_ERROR, this.onResourceLoadError, this);
         RES.addEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
         RES.addEventListener(RES.ResourceEvent.ITEM_LOAD_ERROR, this.onItemLoadError, this);
-        RES.loadGroup("index", 1);
         RES.loadGroup("create_role");
     }
 
@@ -130,14 +129,13 @@ class Main extends egret.DisplayObjectContainer {
     }
 
     private textfield: egret.TextField;
-    private urlloader: egret.URLLoader;
 
     /**
      * 创建游戏场景
      * Create a game scene
      */
     private createGameScene() {
-        
+
         let bg = this.createBitmapByName('create_role_bg_jpg');
         this.addChild(bg);
         let stageW = this.stage.stageWidth;
@@ -221,11 +219,39 @@ class Main extends egret.DisplayObjectContainer {
             }
         }
 
+        let roleNameContainer = new egret.Sprite();
+        roleNameContainer.x = 160;
+        roleNameContainer.y = 800;
+        roleNameContainer.width = 320;
+        roleNameContainer.height = 50;
+        this.addChild(roleNameContainer);
+
+        let role_name_bg_png = new egret.Bitmap(RES.getRes('role_name_bg_png'));
+        role_name_bg_png.x = 160;
+        role_name_bg_png.y = 800;
+        role_name_bg_png.width = 320;
+        this.addChild(role_name_bg_png);
+
+        let label: egret.TextField = new egret.TextField();
+        label.x = 180;
+        label.y = 810;
+        label.text = '嘎啦嘎啦';
+        label.textColor = 0xffffff;
+        label.size = 24;
+        label.textAlign = egret.HorizontalAlign.CENTER;
+        label.verticalAlign = egret.VerticalAlign.MIDDLE;
+        label.touchEnabled = true;
+        roleNameContainer.addChild(label); 
+
+        label.addEventListener(egret.TouchEvent.TOUCH_BEGIN, (e) => {
+            label.setFocus();
+        }, this);
+
         function jump(obj) {
-            obj.width = 280;
-            obj.height = obj.width / (212 / 319);
+            obj.width = 240;
+            obj.height = obj.width / (212 / 349);
             obj.x = (640 - obj.width) / 2;
-            obj.y = 390;
+            obj.y = 370;
             that.addChild(obj);
 
             egret.Tween.get(obj, { loop: true })
