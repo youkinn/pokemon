@@ -16,4 +16,4 @@ selenium-debug.log
 *.sln
 .jsbeautifyrc
 
-bin-debug/
+bin-debug/*
