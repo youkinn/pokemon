@@ -80,6 +80,7 @@ class Main extends egret.DisplayObjectContainer {
         RES.addEventListener(RES.ResourceEvent.GROUP_LOAD_ERROR, this.onResourceLoadError, this);
         RES.addEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
         RES.addEventListener(RES.ResourceEvent.ITEM_LOAD_ERROR, this.onItemLoadError, this);
+        RES.loadGroup("index", 1);
         RES.loadGroup("create_role");
     }
 
@@ -129,12 +130,14 @@ class Main extends egret.DisplayObjectContainer {
     }
 
     private textfield: egret.TextField;
+    private urlloader: egret.URLLoader;
 
     /**
      * 创建游戏场景
      * Create a game scene
      */
     private createGameScene() {
+        
         let bg = this.createBitmapByName('create_role_bg_jpg');
         this.addChild(bg);
         let stageW = this.stage.stageWidth;
@@ -152,8 +155,6 @@ class Main extends egret.DisplayObjectContainer {
         back_server.x = 500;
         back_server.y = 5;
         this.addChild(back_server);
-
-
 
         const roleWidth = 158;
         const roleHeight = roleWidth / (118 / 227);
@@ -207,33 +208,29 @@ class Main extends egret.DisplayObjectContainer {
 
             this.addChild(role);
             role.touchEnabled = true;
-            var handle;
             (function (i, role, rolePic2) {
                 role.addEventListener(egret.TouchEvent.TOUCH_TAP, function () {
                     for (let i = 0, j = arr.length; i < j; i++) {
-                        arr[i].width = 0;
-                        arr[i].height = 0;
+                        arr[i].parent && arr[i].parent.removeChild(arr[i]);
                     }
-                    rolePic2.width = 280;
-                    rolePic2.height = rolePic2.width / (212 / 319);
-                    rolePic2.x = (640 - rolePic2.width) / 2;
-                    rolePic2.y = 390;
-                    that.addChild(rolePic2);
-                    if (handle) {
-                        clearInterval(handle);
-                    }
-                    shakeRole(rolePic2, msec / 2);
-                    handle = setInterval(function () {
-                        shakeRole(rolePic2, msec / 2);
-                    }, msec);
+                    jump(rolePic2);
                 }, that);
             })(i, role, rolePic2);
+            if (i == 0) {
+                jump(rolePic2);
+            }
         }
 
-        function shakeRole(target, msec2) {
-            egret.Tween.get(target)
-                .to({ y: target.y + 10 }, msec2, egret.Ease.cubicIn)
-                .to({ y: target.y }, msec2, egret.Ease.cubicOut);
+        function jump(obj) {
+            obj.width = 280;
+            obj.height = obj.width / (212 / 319);
+            obj.x = (640 - obj.width) / 2;
+            obj.y = 390;
+            that.addChild(obj);
+
+            egret.Tween.get(obj, { loop: true })
+                .to({ y: obj.y + 10 }, msec / 2, egret.Ease.backInOut)
+                .to({ y: obj.y }, msec / 2, egret.Ease.backInOut);
         }
     }
 

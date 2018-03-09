@@ -17,3 +17,5 @@ selenium-debug.log
 .jsbeautifyrc
 
 bin-debug/
+bin-release/
+template/

@@ -5,9 +5,10 @@
 			"name": "preload"
 		},
 		{
-			"keys": "21000_12_1_png,21000_12_2_png,21000_12_3_png,21000_12_4_png,back_server_png,create_chose_role_png,create_role_bg_jpg,role_name_bg_png,role_4_png,role_3_png,role_2_png,role_1_png,main1_png,login_ball_png",
+			"keys": "21000_12_1_png,21000_12_2_png,21000_12_3_png,21000_12_4_png,back_server_png,create_chose_role_png,create_role_bg_jpg,role_name_bg_png,role_4_png,role_3_png,role_2_png,role_1_png,login_ball_png",
 			"name": "create_role"
-		}
+		},
+		{"name":"index", "keys":"main"}
 	],
 	"resources": [
 		{
@@ -66,11 +67,6 @@
 			"name": "login_ball_png"
 		},
 		{
-			"url": "assets/create_role/main1.png",
-			"type": "image",
-			"name": "main1_png"
-		},
-		{
 			"url": "assets/create_role/role_1.png",
 			"type": "image",
 			"name": "role_1_png"
@@ -94,6 +90,11 @@
 			"url": "assets/create_role/role_name_bg.png",
 			"type": "image",
 			"name": "role_name_bg_png"
+		},
+		{
+			"url": "assets/index/index.json",
+			"type": "sheet",
+			"name": "main"
 		}
 	]
 }
