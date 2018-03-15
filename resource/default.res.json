@@ -1,11 +1,15 @@
 {
 	"groups": [
 		{
-			"keys": "description_json,dogs_png,index_json,main1_png,create_role_main_jpg",
-			"name": "index"
+			"keys": "loading_jpg,toast-bg_png,loading2_png",
+			"name": "loading"
 		},
 		{
-			"keys": "21000_12_1_png,21000_12_2_png,21000_12_3_png,21000_12_4_png,back_server_png,create_chose_role_png,create_role_bg_jpg,role_name_bg_png,role_4_png,role_3_png,role_2_png,role_1_png,login_ball_png,create_role_main,animation_png",
+			"keys": "description_json,build_png,building_png,dogs_png,index_json,king_png,main_bg_png,main12_png,mountain_png,others_png,home_bg,building",
+			"name": "home"
+		},
+		{
+			"keys": "handle_png,off_png,on_png,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,animation_png,21000_12_1_png,21000_12_2_png,21000_12_3_png,21000_12_4_png,back_server_png,createRole_main_png,create_chose_role_png,create_role_bg_jpg,create_role_main_jpg,create_role_main_json,login_ball_png,main1_png,role_1_png,role_2_png,role_3_png,role_4_png,role_name_bg_png,build_png,building_png,dogs_png,index_json,king_png,main12_png,main_bg_png,mountain_png,others_png,loading_jpg,loading2_png,toast-bg_png",
 			"name": "preload"
 		}
 	],
@@ -16,106 +20,283 @@
 			"name": "description_json"
 		},
 		{
-			"url": "assets/create_role/21000_12_1.png",
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "part/mc/animation.png",
+			"type": "image",
+			"name": "animation_png"
+		},
+		{
+			"url": "part/create_role/21000_12_1.png",
 			"type": "image",
 			"name": "21000_12_1_png"
 		},
 		{
-			"url": "assets/create_role/21000_12_2.png",
+			"url": "part/create_role/21000_12_2.png",
 			"type": "image",
 			"name": "21000_12_2_png"
 		},
 		{
-			"url": "assets/create_role/21000_12_3.png",
+			"url": "part/create_role/21000_12_3.png",
 			"type": "image",
 			"name": "21000_12_3_png"
 		},
 		{
-			"url": "assets/create_role/21000_12_4.png",
+			"url": "part/create_role/21000_12_4.png",
 			"type": "image",
 			"name": "21000_12_4_png"
 		},
 		{
-			"url": "assets/create_role/back_server.png",
+			"url": "part/create_role/back_server.png",
 			"type": "image",
 			"name": "back_server_png"
 		},
 		{
-			"url": "assets/create_role/create_chose_role.png",
+			"url": "part/create_role/createRole_main.png",
+			"type": "image",
+			"name": "createRole_main_png"
+		},
+		{
+			"url": "part/create_role/create_chose_role.png",
 			"type": "image",
 			"name": "create_chose_role_png"
 		},
 		{
-			"url": "assets/create_role/create_role_bg.jpg",
+			"url": "part/create_role/create_role_bg.jpg",
 			"type": "image",
 			"name": "create_role_bg_jpg"
 		},
 		{
-			"url": "assets/create_role/login_ball.png",
+			"url": "part/create_role/create_role_main.jpg",
+			"type": "image",
+			"name": "create_role_main_jpg"
+		},
+		{
+			"url": "part/create_role/create_role_main.json",
+			"type": "sheet",
+			"name": "create_role_main_json",
+			"subkeys": "start,tt"
+		},
+		{
+			"url": "part/create_role/login_ball.png",
 			"type": "image",
 			"name": "login_ball_png"
 		},
 		{
-			"url": "assets/create_role/role_1.png",
+			"url": "part/create_role/main1.png",
+			"type": "image",
+			"name": "main1_png"
+		},
+		{
+			"url": "part/create_role/role_1.png",
 			"type": "image",
 			"name": "role_1_png"
 		},
 		{
-			"url": "assets/create_role/role_2.png",
+			"url": "part/create_role/role_2.png",
 			"type": "image",
 			"name": "role_2_png"
 		},
 		{
-			"url": "assets/create_role/role_3.png",
+			"url": "part/create_role/role_3.png",
 			"type": "image",
 			"name": "role_3_png"
 		},
 		{
-			"url": "assets/create_role/role_4.png",
+			"url": "part/create_role/role_4.png",
 			"type": "image",
 			"name": "role_4_png"
 		},
 		{
-			"url": "assets/create_role/role_name_bg.png",
+			"url": "part/create_role/role_name_bg.png",
 			"type": "image",
 			"name": "role_name_bg_png"
 		},
 		{
-			"url": "assets/index/dogs.png",
+			"url": "part/home/build.png",
+			"type": "image",
+			"name": "build_png"
+		},
+		{
+			"url": "part/home/building.png",
+			"type": "image",
+			"name": "building_png"
+		},
+		{
+			"url": "part/home/dogs.png",
 			"type": "image",
 			"name": "dogs_png"
 		},
 		{
-			"url": "assets/index/index.json",
+			"url": "part/home/index.json",
 			"type": "sheet",
 			"name": "index_json",
 			"subkeys": "dog1,dog2,dog3,dog4,dog5,dog6"
 		},
 		{
-			"url": "assets/index/main1.png",
+			"url": "part/home/king.png",
 			"type": "image",
-			"name": "main1_png"
+			"name": "king_png"
 		},
 		{
-			"url": "assets/create_role/create_role_main.jpg",
+			"url": "part/home/main1.png",
 			"type": "image",
-			"name": "create_role_main_jpg"
+			"name": "main12_png"
 		},
 		{
-			"url": "assets/create_role/create_role_main.json",
+			"url": "part/home/main_bg.png",
+			"type": "image",
+			"name": "main_bg_png"
+		},
+		{
+			"url": "part/home/mountain.png",
+			"type": "image",
+			"name": "mountain_png"
+		},
+		{
+			"url": "part/home/others.png",
+			"type": "image",
+			"name": "others_png"
+		},
+		{
+			"url": "part/loading/loading.jpg",
+			"type": "image",
+			"name": "loading_jpg"
+		},
+		{
+			"url": "part/loading/loading2.png",
+			"type": "image",
+			"name": "loading2_png"
+		},
+		{
+			"url": "part/loading/toast-bg.png",
+			"type": "image",
+			"name": "toast-bg_png"
+		},
+		{
+			"url": "part/home/home_bg.json",
 			"type": "sheet",
-			"name": "create_role_main",
-			"subkeys": "tt,start"
+			"name": "home_bg",
+			"subkeys": "king,main,mountain,sky"
 		},
 		{
-			"url": "assets/create_role/createRole_main.png",
-			"type": "image",
-			"name": "createRole_main_png"
-		},
-		{
-			"name": "animation_png",
-			"type": "image",
-			"url": "assets/mc/animation.png"
+			"url": "part/home/building.json",
+			"type": "sheet",
+			"name": "building",
+			"subkeys": "building_1,building_2,building_3,building_4,building_5,building_6"
 		}
 	]
 }

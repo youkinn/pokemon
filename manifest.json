@@ -11,9 +11,14 @@
 	],
 	"game": [
 		"bin-debug/AssetAdapter.js",
+		"bin-debug/GameEvent.js",
+		"bin-debug/GamePages.js",
 		"bin-debug/LoadingUI.js",
 		"bin-debug/Main.js",
 		"bin-debug/ThemeAdapter.js",
-		"bin-debug/pages/createRole.page.js"
+		"bin-debug/TrueLoadingUI.js",
+		"bin-debug/pages/createRole.js",
+		"bin-debug/pages/HomeUI.js",
+		"bin-debug/pages/StageUI.js"
 	]
 }

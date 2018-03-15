@@ -7,6 +7,7 @@ class CreateRoleUI extends eui.Component {
     private btnRoles: eui.RadioButton[];
     private btnCrap: eui.RadioButton;
     private txtName: eui.TextInput;
+    private btnStart: eui.Button;
     private nameConfig;
     private sex = {
         MALE: 'male',
@@ -21,7 +22,6 @@ class CreateRoleUI extends eui.Component {
 
     private uiCompHandler(e: egret.Event): void {
         this.loadNameConfig();
-
 
         let item = {};
         this.btnRoles = [this.rdRole1, this.rdRole2, this.rdRole3, this.rdRole4];
@@ -38,14 +38,18 @@ class CreateRoleUI extends eui.Component {
             this.txtName.text = name;
             console.log(name);
         }, this);
+
+        this.btnStart.addEventListener(egret.TouchEvent.TOUCH_TAP, function (e: egret.TouchEvent) {
+            console.log('start');
+        }, this);
     }
 
     private touchHandler(source): void {
         this.rolePic.source = source;
         this.addChild(this.rolePic);
         egret.Tween.get(this.rolePic, { loop: true })
-            .to({ y: this.rolePic.y + 10 }, 400, egret.Ease.backInOut)
-            .to({ y: this.rolePic.y }, 400, egret.Ease.backInOut);
+            .to({ y: this.rolePic.y + 8 }, 800, egret.Ease.backIn)
+            .to({ y: this.rolePic.y }, 800, egret.Ease.backIn);
     }
 
     private loadNameConfig(): void {

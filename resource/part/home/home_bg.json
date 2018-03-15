@@ -1,0 +1,45 @@
+{
+    "file": "home_bg.png",
+    "frames": {
+        "main": {
+            "x": 0,
+            "y": 0,
+            "w": 480,
+            "h": 498,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 480,
+            "sourceH": 498
+        },
+        "sky": {
+            "x": 0,
+            "y": 508,
+            "w": 479,
+            "h": 343,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 479,
+            "sourceH": 343
+        },
+        "king": {
+            "x": 490,
+            "y": 171,
+            "w": 112,
+            "h": 178,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 112,
+            "sourceH": 178
+        },
+        "mountain": {
+            "x": 490,
+            "y": 0,
+            "w": 478,
+            "h": 161,
+            "offX": 2,
+            "offY": 0,
+            "sourceW": 480,
+            "sourceH": 162
+        }
+    }
+}
