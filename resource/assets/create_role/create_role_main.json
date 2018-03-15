@@ -1,0 +1,25 @@
+{
+    "file": "createRole_main.png",
+    "frames": {
+        "tt": {
+            "x": 790,
+            "y": 90,
+            "w": 64,
+            "h": 64,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 64,
+            "sourceH": 64
+        },
+        "start": {
+            "x": 832,
+            "y": 224,
+            "w": 132,
+            "h": 55,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 132,
+            "sourceH": 55
+        }
+    }
+}

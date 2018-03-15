@@ -9,30 +9,33 @@
   },
   "egret_version": "5.0.15",
   "template": {},
+  "eui": {
+    "exmlRoot": [
+      "resource/eui_skins"
+    ],
+    "themes": [
+      "resource/default.thm.json"
+    ],
+    "exmlPublishPolicy": "content"
+  },
   "modules": [
     {
       "name": "egret"
     },
     {
-      "name": "game"
-    },
-    {
-      "name": "tween"
+      "name": "eui"
     },
     {
       "name": "res"
     },
     {
-      "name": "eui"
+      "name": "tween"
+    },
+    {
+      "name": "game"
     },
     {
       "name": "socket"
-    },
-    {
-      "name": "dragonBones"
-    },
-    {
-      "name": "egret3d"
     },
     {
       "name": "promise",
