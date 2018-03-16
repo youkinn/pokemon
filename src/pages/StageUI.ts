@@ -7,6 +7,6 @@ class StageUI extends eui.Component {
     }
 
     private uiCompHandler(e: egret.Event): void {
-        console.log();
+        
     }
 }

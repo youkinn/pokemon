@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="imgBg" width="480" height="800" x="0" y="0" scaleX="1.5625" scaleY="1.5625" />
 	<e:Image width="480" height="344" x="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1.5625" scaleY="1.5625" source="home_bg.sky" top="0" locked="true"/>
-
-
-
-
-
-	<e:ToggleButton label="" x="301.56" y="911" width="193" height="262" enabled="true" scaleX="1.5625" scaleY="1.5625" right="0">
+	<e:ToggleButton id="mbtnWarCenter" label="" x="301.56" y="911" width="193" height="262" enabled="true" scaleX="1.5625" scaleY="1.5625" right="0">
 		<e:skinName>
 			<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="building.building_6" source.down="building.building_6" source.disabled="building.building_6"/>
@@ -16,7 +12,7 @@
 	</e:ToggleButton>
 	<e:Image width="480" height="162" x="-3" y="392" anchorOffsetX="0" anchorOffsetY="0" source="home_bg.mountain" scaleX="1.5625" scaleY="1.5625" locked="true"/>
 	<e:Image width="112" height="178" x="194" y="383" anchorOffsetX="0" anchorOffsetY="0" source="home_bg.king" scaleY="1.5625" scaleX="1.5625" locked="true"/>
-	<e:ToggleButton label="" x="0" y="604" width="180" height="234" enabled="true" scaleX="1.5625" scaleY="1.5625" left="0">
+	<e:ToggleButton id="mbtnResearchCenter" label="" x="0" y="604" width="180" height="234" enabled="true" scaleX="1.5625" scaleY="1.5625" left="0">
 		<e:skinName>
 		<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="building.building_1" source.down="building.building_1" source.disabled="building.building_1"/>
@@ -24,16 +20,9 @@
 		</e:Skin>
 		</e:skinName>
 	</e:ToggleButton>
-	<e:ToggleButton label="" x="2" y="888" width="193" height="262" enabled="true" scaleX="1.5625" scaleY="1.5625">
-		<e:skinName>
-		<e:Skin states="up,down,disabled">
-			<e:Image width="100%" height="100%" source="building.building_5" source.down="building.building_5" source.disabled="building.building_5"/>
-			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
-		</e:Skin>
-		</e:skinName>
-	</e:ToggleButton>
+
 	<e:Image width="480" height="498" x="0" y="50" anchorOffsetX="0" anchorOffsetY="0" bottom="17" scaleX="1.5625" scaleY="1.5625" source="home_bg.main" locked="true"/>
-	<e:ToggleButton label="" x="385" y="503" width="178" height="155" enabled="true" scaleX="1.5625" scaleY="1.5625" right="40">
+	<e:ToggleButton id="mbtnGuildHall" label="" x="385" y="503" width="178" height="155" enabled="true" scaleX="1.5625" scaleY="1.5625" right="40">
 		<e:skinName>
 		<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="building.building_2" source.down="building.building_2" source.disabled="building.building_2"/>
@@ -41,7 +30,7 @@
 		</e:Skin>
 		</e:skinName>
 	</e:ToggleButton>
-	<e:ToggleButton label="" x="375" y="683" width="168" height="144" enabled="true" scaleX="1.5625" scaleY="1.5625" right="0">
+	<e:ToggleButton id="mbtnBoss" label="" x="375" y="683" width="168" height="144" enabled="true" scaleX="1.5625" scaleY="1.5625" right="0">
 		<e:skinName>
 		<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="building.building_4" source.down="building.building_4" source.disabled="building.building_4"/>
@@ -49,7 +38,7 @@
 		</e:Skin>
 		</e:skinName>
 	</e:ToggleButton>
-	<e:ToggleButton label="" x="272.22" y="861" width="108" height="135" enabled="true" scaleX="1.5625" scaleY="1.5625">
+	<e:ToggleButton id="mbtnThomas" label="" x="272.22" y="861" width="108" height="135" enabled="true" scaleX="1.5625" scaleY="1.5625">
 		<e:skinName>
 		<e:Skin states="up,down,disabled">
 			<e:Image width="100%" height="100%" source="building.building_3" source.down="building.building_3" source.disabled="building.building_3"/>
@@ -57,6 +46,12 @@
 		</e:Skin>
 		</e:skinName>
 	</e:ToggleButton>
-
-
+	<e:ToggleButton id="mbtnStage" label="" x="2" y="872" width="193" height="262" enabled="true" scaleX="1.5625" scaleY="1.5625">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="building.building_5" source.down="building.building_5" source.disabled="building.building_5"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:ToggleButton>
 </e:Skin>

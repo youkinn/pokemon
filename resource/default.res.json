@@ -5,8 +5,12 @@
 			"name": "loading"
 		},
 		{
-			"keys": "description_json,build_png,building_png,dogs_png,index_json,king_png,main_bg_png,main12_png,mountain_png,others_png,home_bg,building",
+			"keys": "description_json,build_png,building_png,dogs_png,index_json,king_png,main_bg_png,main12_png,mountain_png,others_png,home_bg,building,common_bg_jpg",
 			"name": "home"
+		},
+		{
+			"keys": "building",
+			"name": "stage"
 		},
 		{
 			"keys": "handle_png,off_png,on_png,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,animation_png,21000_12_1_png,21000_12_2_png,21000_12_3_png,21000_12_4_png,back_server_png,createRole_main_png,create_chose_role_png,create_role_bg_jpg,create_role_main_jpg,create_role_main_json,login_ball_png,main1_png,role_1_png,role_2_png,role_3_png,role_4_png,role_name_bg_png,build_png,building_png,dogs_png,index_json,king_png,main12_png,main_bg_png,mountain_png,others_png,loading_jpg,loading2_png,toast-bg_png",
@@ -297,6 +301,11 @@
 			"type": "sheet",
 			"name": "building",
 			"subkeys": "building_1,building_2,building_3,building_4,building_5,building_6"
+		},
+		{
+			"name": "common_bg_jpg",
+			"type": "image",
+			"url": "part/home/common_bg.jpg"
 		}
 	]
 }
