@@ -19,4 +19,4 @@ selenium-debug.log
 bin-debug/
 bin-release/
 template/
-libs/
+libs/node_modules/*
