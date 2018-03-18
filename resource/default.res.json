@@ -5,7 +5,7 @@
 			"name": "loading"
 		},
 		{
-			"keys": "description_json,build_png,building_png,index_json,king_png,main_bg_png,main12_png,mountain_png,home_bg,building,common_bg_jpg,main1_json,main2_json,main3_json,22000_1_1_png",
+			"keys": "description_json,build_png,building_png,index_json,king_png,main_bg_png,main12_png,mountain_png,home_bg,building,common_bg_jpg,main1_json,main2_json,main3_json,22000_1_1_png,nums_json",
 			"name": "home"
 		},
 		{
@@ -17,7 +17,7 @@
 			"name": "adventure"
 		},
 		{
-			"keys": "building",
+			"keys": "activity1_png,activity2_png,activity3_png,activity4_png,activity5_png,activity6_png,activity7_png,activity8_png,activity9_png,activity10_png,activity11_png,activity12_png,activity13_png",
 			"name": "chance"
 		},
 		{
@@ -29,7 +29,7 @@
 			"name": "stage"
 		},
 		{
-			"keys": "handle_png,off_png,on_png,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,animation_png,21000_12_1_png,21000_12_2_png,21000_12_3_png,21000_12_4_png,back_server_png,createRole_main_png,create_chose_role_png,create_role_bg_jpg,create_role_main_jpg,create_role_main_json,login_ball_png,main1_png,role_1_png,role_2_png,role_3_png,role_4_png,role_name_bg_png,build_png,building_png,index_json,king_png,main12_png,main_bg_png,mountain_png,loading_jpg,loading2_png,toast-bg_png,common_bg2_jpg",
+			"keys": "handle_png,off_png,on_png,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,animation_png,21000_12_1_png,21000_12_2_png,21000_12_3_png,21000_12_4_png,back_server_png,createRole_main_png,create_chose_role_png,create_role_bg_jpg,create_role_main_jpg,create_role_main_json,login_ball_png,main1_png,role_1_png,role_2_png,role_3_png,role_4_png,role_name_bg_png,build_png,building_png,index_json,king_png,main12_png,main_bg_png,mountain_png,loading_jpg,loading2_png,toast-bg_png,common_bg2_jpg,activity122_png,activity22_png,activity32_png,activity42_png,activity52_png,activity62_png,activity72_png,activity82_png,activity92_png,activity132_png",
 			"name": "preload"
 		}
 	],
@@ -350,6 +350,132 @@
 			"url": "part/home/22000_1_1.png",
 			"type": "image",
 			"name": "22000_1_1_png"
+		},
+		{
+			"name": "nums_json",
+			"type": "sheet",
+			"url": "part/home/nums.json",
+			"subkeys": "numA_0,numA_1,numA_2,numA_3,numA_4,numA_5,numA_6,numA_7,numA_8,numA_9,numB_0,numB_1,numB_2,numB_3,numB_4,numB_5,numB_6,numB_7,numB_8,numB_9,numC_0,numC_1,numC_2,numC_3,numC_4,numC_5,numC_6,numC_7,numC_8,numC_9,numD_0,numD_1,numD_2,numD_3,numD_4,numD_5,numD_6,numD_7,numD_8,numD_9,numE_0,numE_1,numE_2,numE_3,numE_4,numE_5,numE_6,numE_7,numE_8,numE_9,numF_0,numF_1,numF_2,numF_3,numF_4,numF_5,numF_6,numF_7,numF_8,numF_9,numG_0,numG_1,numG_2,numG_3,numG_4,numG_5,numG_6,numG_7,numG_8,numG_9,numH_0,numH_1,numH_2,numH_3,numH_4,numH_5,numH_6,numH_7,numH_8,numH_9,numX_0,numX_1,numX_2,numX_3,numX_4,numX_5,numX_6,numX_7,numX_8,numX_9,numY_0,numY_1,numY_2,numY_3,numY_4,numY_5,numY_6,numY_7,numY_8,numY_9"
+		},
+		{
+			"name": "nums_png",
+			"type": "image",
+			"url": "part/home/nums.png"
+		},
+		{
+			"name": "activity1_png",
+			"type": "image",
+			"url": "part/chance/activity1.png"
+		},
+		{
+			"name": "activity2_png",
+			"type": "image",
+			"url": "part/chance/activity2.png"
+		},
+		{
+			"name": "activity3_png",
+			"type": "image",
+			"url": "part/chance/activity3.png"
+		},
+		{
+			"name": "activity4_png",
+			"type": "image",
+			"url": "part/chance/activity4.png"
+		},
+		{
+			"name": "activity5_png",
+			"type": "image",
+			"url": "part/chance/activity5.png"
+		},
+		{
+			"name": "activity6_png",
+			"type": "image",
+			"url": "part/chance/activity6.png"
+		},
+		{
+			"name": "activity7_png",
+			"type": "image",
+			"url": "part/chance/activity7.png"
+		},
+		{
+			"name": "activity8_png",
+			"type": "image",
+			"url": "part/chance/activity8.png"
+		},
+		{
+			"name": "activity9_png",
+			"type": "image",
+			"url": "part/chance/activity9.png"
+		},
+		{
+			"name": "activity10_png",
+			"type": "image",
+			"url": "part/chance/activity10.png"
+		},
+		{
+			"name": "activity11_png",
+			"type": "image",
+			"url": "part/chance/activity11.png"
+		},
+		{
+			"name": "activity12_png",
+			"type": "image",
+			"url": "part/chance/activity12.png"
+		},
+		{
+			"name": "activity13_png",
+			"type": "image",
+			"url": "part/chance/activity13.png"
+		},
+		{
+			"name": "activity122_png",
+			"type": "image",
+			"url": "part/chance/activity12.png"
+		},
+		{
+			"name": "activity22_png",
+			"type": "image",
+			"url": "part/chance/activity2.png"
+		},
+		{
+			"name": "activity32_png",
+			"type": "image",
+			"url": "part/chance/activity3.png"
+		},
+		{
+			"name": "activity42_png",
+			"type": "image",
+			"url": "part/chance/activity4.png"
+		},
+		{
+			"name": "activity52_png",
+			"type": "image",
+			"url": "part/chance/activity5.png"
+		},
+		{
+			"name": "activity62_png",
+			"type": "image",
+			"url": "part/chance/activity6.png"
+		},
+		{
+			"name": "activity72_png",
+			"type": "image",
+			"url": "part/chance/activity7.png"
+		},
+		{
+			"name": "activity82_png",
+			"type": "image",
+			"url": "part/chance/activity8.png"
+		},
+		{
+			"name": "activity92_png",
+			"type": "image",
+			"url": "part/chance/activity9.png"
+		},
+		{
+			"name": "activity132_png",
+			"type": "image",
+			"url": "part/chance/activity13.png"
 		}
 	]
 }

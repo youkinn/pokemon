@@ -1,0 +1,1005 @@
+{
+    "file": "nums.png",
+    "frames": {
+        "numA_0": {
+            "x": 1,
+            "y": 153,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numA_1": {
+            "x": 211,
+            "y": 131,
+            "w": 13,
+            "h": 29,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 14,
+            "sourceH": 30
+        },
+        "numA_2": {
+            "x": 73,
+            "y": 31,
+            "w": 21,
+            "h": 29,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 29
+        },
+        "numA_3": {
+            "x": 1,
+            "y": 213,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numA_4": {
+            "x": 1,
+            "y": 63,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numA_5": {
+            "x": 1,
+            "y": 93,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numA_6": {
+            "x": 1,
+            "y": 123,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numA_7": {
+            "x": 119,
+            "y": 31,
+            "w": 21,
+            "h": 28,
+            "offX": 1,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numA_8": {
+            "x": 1,
+            "y": 1,
+            "w": 22,
+            "h": 29,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 29
+        },
+        "numA_9": {
+            "x": 1,
+            "y": 183,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numB_0": {
+            "x": 164,
+            "y": 61,
+            "w": 19,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 19,
+            "sourceH": 24
+        },
+        "numB_1": {
+            "x": 197,
+            "y": 136,
+            "w": 12,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 12,
+            "sourceH": 24
+        },
+        "numB_2": {
+            "x": 164,
+            "y": 87,
+            "w": 19,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 19,
+            "sourceH": 24
+        },
+        "numB_3": {
+            "x": 213,
+            "y": 1,
+            "w": 19,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 19,
+            "sourceH": 24
+        },
+        "numB_4": {
+            "x": 234,
+            "y": 1,
+            "w": 19,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 19,
+            "sourceH": 24
+        },
+        "numB_5": {
+            "x": 213,
+            "y": 27,
+            "w": 19,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 19,
+            "sourceH": 24
+        },
+        "numB_6": {
+            "x": 190,
+            "y": 32,
+            "w": 19,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 19,
+            "sourceH": 24
+        },
+        "numB_7": {
+            "x": 190,
+            "y": 58,
+            "w": 19,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 19,
+            "sourceH": 24
+        },
+        "numB_8": {
+            "x": 190,
+            "y": 84,
+            "w": 19,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 19,
+            "sourceH": 24
+        },
+        "numB_9": {
+            "x": 190,
+            "y": 110,
+            "w": 19,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 19,
+            "sourceH": 24
+        },
+        "numC_0": {
+            "x": 179,
+            "y": 208,
+            "w": 15,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 15,
+            "sourceH": 20
+        },
+        "numC_1": {
+            "x": 138,
+            "y": 231,
+            "w": 14,
+            "h": 20,
+            "offX": 1,
+            "offY": 0,
+            "sourceW": 15,
+            "sourceH": 20
+        },
+        "numC_2": {
+            "x": 179,
+            "y": 230,
+            "w": 15,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 15,
+            "sourceH": 20
+        },
+        "numC_3": {
+            "x": 73,
+            "y": 231,
+            "w": 15,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 15,
+            "sourceH": 20
+        },
+        "numC_4": {
+            "x": 233,
+            "y": 185,
+            "w": 15,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 15,
+            "sourceH": 20
+        },
+        "numC_5": {
+            "x": 231,
+            "y": 233,
+            "w": 15,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 15,
+            "sourceH": 20
+        },
+        "numC_6": {
+            "x": 162,
+            "y": 165,
+            "w": 15,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 15,
+            "sourceH": 20
+        },
+        "numC_7": {
+            "x": 162,
+            "y": 187,
+            "w": 15,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 15,
+            "sourceH": 20
+        },
+        "numC_8": {
+            "x": 162,
+            "y": 209,
+            "w": 15,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 15,
+            "sourceH": 20
+        },
+        "numC_9": {
+            "x": 179,
+            "y": 186,
+            "w": 15,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 15,
+            "sourceH": 20
+        },
+        "numD_0": {
+            "x": 96,
+            "y": 31,
+            "w": 21,
+            "h": 29,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 21,
+            "sourceH": 30
+        },
+        "numD_1": {
+            "x": 229,
+            "y": 130,
+            "w": 13,
+            "h": 29,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 15,
+            "sourceH": 29
+        },
+        "numD_2": {
+            "x": 145,
+            "y": 1,
+            "w": 21,
+            "h": 29,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 21,
+            "sourceH": 30
+        },
+        "numD_3": {
+            "x": 168,
+            "y": 1,
+            "w": 21,
+            "h": 28,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 21,
+            "sourceH": 30
+        },
+        "numD_4": {
+            "x": 1,
+            "y": 32,
+            "w": 22,
+            "h": 29,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 22,
+            "sourceH": 30
+        },
+        "numD_5": {
+            "x": 25,
+            "y": 1,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 22,
+            "sourceH": 30
+        },
+        "numD_6": {
+            "x": 142,
+            "y": 32,
+            "w": 20,
+            "h": 28,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 20,
+            "sourceH": 30
+        },
+        "numD_7": {
+            "x": 168,
+            "y": 31,
+            "w": 20,
+            "h": 28,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 20,
+            "sourceH": 30
+        },
+        "numD_8": {
+            "x": 191,
+            "y": 1,
+            "w": 20,
+            "h": 29,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 20,
+            "sourceH": 30
+        },
+        "numD_9": {
+            "x": 119,
+            "y": 61,
+            "w": 20,
+            "h": 28,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 20,
+            "sourceH": 30
+        },
+        "numE_0": {
+            "x": 154,
+            "y": 231,
+            "w": 14,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 14,
+            "sourceH": 20
+        },
+        "numE_1": {
+            "x": 245,
+            "y": 156,
+            "w": 10,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 10,
+            "sourceH": 20
+        },
+        "numE_2": {
+            "x": 73,
+            "y": 190,
+            "w": 14,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 14,
+            "sourceH": 20
+        },
+        "numE_3": {
+            "x": 73,
+            "y": 167,
+            "w": 14,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 14,
+            "sourceH": 20
+        },
+        "numE_4": {
+            "x": 89,
+            "y": 190,
+            "w": 14,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 14,
+            "sourceH": 20
+        },
+        "numE_5": {
+            "x": 89,
+            "y": 167,
+            "w": 14,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 14,
+            "sourceH": 20
+        },
+        "numE_6": {
+            "x": 105,
+            "y": 167,
+            "w": 14,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 14,
+            "sourceH": 20
+        },
+        "numE_7": {
+            "x": 90,
+            "y": 231,
+            "w": 14,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 14,
+            "sourceH": 20
+        },
+        "numE_8": {
+            "x": 106,
+            "y": 231,
+            "w": 14,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 14,
+            "sourceH": 20
+        },
+        "numE_9": {
+            "x": 122,
+            "y": 231,
+            "w": 14,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 14,
+            "sourceH": 20
+        },
+        "numF_0": {
+            "x": 111,
+            "y": 117,
+            "w": 17,
+            "h": 23,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 17,
+            "sourceH": 23
+        },
+        "numF_1": {
+            "x": 105,
+            "y": 189,
+            "w": 12,
+            "h": 22,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 12,
+            "sourceH": 23
+        },
+        "numF_2": {
+            "x": 179,
+            "y": 136,
+            "w": 16,
+            "h": 23,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 17,
+            "sourceH": 23
+        },
+        "numF_3": {
+            "x": 197,
+            "y": 162,
+            "w": 16,
+            "h": 23,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 17,
+            "sourceH": 23
+        },
+        "numF_4": {
+            "x": 226,
+            "y": 161,
+            "w": 17,
+            "h": 22,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 17,
+            "sourceH": 23
+        },
+        "numF_5": {
+            "x": 231,
+            "y": 209,
+            "w": 16,
+            "h": 22,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 17,
+            "sourceH": 23
+        },
+        "numF_6": {
+            "x": 130,
+            "y": 114,
+            "w": 17,
+            "h": 23,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 17,
+            "sourceH": 23
+        },
+        "numF_7": {
+            "x": 215,
+            "y": 185,
+            "w": 16,
+            "h": 22,
+            "offX": 1,
+            "offY": 1,
+            "sourceW": 17,
+            "sourceH": 23
+        },
+        "numF_8": {
+            "x": 130,
+            "y": 139,
+            "w": 17,
+            "h": 23,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 17,
+            "sourceH": 23
+        },
+        "numF_9": {
+            "x": 234,
+            "y": 27,
+            "w": 17,
+            "h": 23,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 17,
+            "sourceH": 23
+        },
+        "numG_0": {
+            "x": 229,
+            "y": 78,
+            "w": 16,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 16,
+            "sourceH": 24
+        },
+        "numG_1": {
+            "x": 244,
+            "y": 130,
+            "w": 10,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 11,
+            "sourceH": 24
+        },
+        "numG_2": {
+            "x": 130,
+            "y": 164,
+            "w": 14,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 14,
+            "sourceH": 24
+        },
+        "numG_3": {
+            "x": 149,
+            "y": 139,
+            "w": 14,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 14,
+            "sourceH": 24
+        },
+        "numG_4": {
+            "x": 234,
+            "y": 52,
+            "w": 16,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 16,
+            "sourceH": 24
+        },
+        "numG_5": {
+            "x": 146,
+            "y": 165,
+            "w": 14,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 14,
+            "sourceH": 24
+        },
+        "numG_6": {
+            "x": 211,
+            "y": 53,
+            "w": 16,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 16,
+            "sourceH": 24
+        },
+        "numG_7": {
+            "x": 214,
+            "y": 212,
+            "w": 15,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 15,
+            "sourceH": 24
+        },
+        "numG_8": {
+            "x": 211,
+            "y": 79,
+            "w": 16,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 16,
+            "sourceH": 24
+        },
+        "numG_9": {
+            "x": 197,
+            "y": 212,
+            "w": 15,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 15,
+            "sourceH": 24
+        },
+        "numH_0": {
+            "x": 141,
+            "y": 62,
+            "w": 17,
+            "h": 24,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 17,
+            "sourceH": 25
+        },
+        "numH_1": {
+            "x": 165,
+            "y": 139,
+            "w": 12,
+            "h": 23,
+            "offX": 0,
+            "offY": 2,
+            "sourceW": 13,
+            "sourceH": 25
+        },
+        "numH_2": {
+            "x": 229,
+            "y": 104,
+            "w": 16,
+            "h": 24,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 17,
+            "sourceH": 25
+        },
+        "numH_3": {
+            "x": 211,
+            "y": 105,
+            "w": 16,
+            "h": 24,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 17,
+            "sourceH": 25
+        },
+        "numH_4": {
+            "x": 111,
+            "y": 142,
+            "w": 17,
+            "h": 23,
+            "offX": 0,
+            "offY": 2,
+            "sourceW": 17,
+            "sourceH": 25
+        },
+        "numH_5": {
+            "x": 197,
+            "y": 187,
+            "w": 16,
+            "h": 23,
+            "offX": 1,
+            "offY": 2,
+            "sourceW": 17,
+            "sourceH": 25
+        },
+        "numH_6": {
+            "x": 141,
+            "y": 88,
+            "w": 17,
+            "h": 24,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 17,
+            "sourceH": 25
+        },
+        "numH_7": {
+            "x": 179,
+            "y": 161,
+            "w": 16,
+            "h": 23,
+            "offX": 1,
+            "offY": 2,
+            "sourceW": 17,
+            "sourceH": 25
+        },
+        "numH_8": {
+            "x": 160,
+            "y": 113,
+            "w": 17,
+            "h": 24,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 17,
+            "sourceH": 25
+        },
+        "numH_9": {
+            "x": 111,
+            "y": 91,
+            "w": 17,
+            "h": 24,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 17,
+            "sourceH": 25
+        },
+        "numX_0": {
+            "x": 25,
+            "y": 31,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numX_1": {
+            "x": 73,
+            "y": 62,
+            "w": 17,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 17,
+            "sourceH": 28
+        },
+        "numX_2": {
+            "x": 25,
+            "y": 61,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numX_3": {
+            "x": 25,
+            "y": 91,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numX_4": {
+            "x": 25,
+            "y": 121,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numX_5": {
+            "x": 25,
+            "y": 151,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numX_6": {
+            "x": 25,
+            "y": 181,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numX_7": {
+            "x": 25,
+            "y": 211,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numX_8": {
+            "x": 49,
+            "y": 1,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numX_9": {
+            "x": 49,
+            "y": 31,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numY_0": {
+            "x": 49,
+            "y": 61,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numY_1": {
+            "x": 92,
+            "y": 62,
+            "w": 17,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 17,
+            "sourceH": 28
+        },
+        "numY_2": {
+            "x": 49,
+            "y": 91,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numY_3": {
+            "x": 49,
+            "y": 121,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numY_4": {
+            "x": 49,
+            "y": 151,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numY_5": {
+            "x": 49,
+            "y": 181,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numY_6": {
+            "x": 49,
+            "y": 211,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numY_7": {
+            "x": 73,
+            "y": 1,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numY_8": {
+            "x": 97,
+            "y": 1,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        },
+        "numY_9": {
+            "x": 121,
+            "y": 1,
+            "w": 22,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 28
+        }
+    }
+}

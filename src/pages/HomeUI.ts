@@ -104,7 +104,6 @@ class HomeUI extends eui.Component {
         switch (this._mbtnFocused) {
             case this.mbtnHome:
                 this._pageFocused = GamePages.HOME;
-                // this.resetFocus();
                 this.goHome();
                 return;
             case this.mbtnStage:
