@@ -3,18 +3,23 @@
  */
 
 class HomeUI extends eui.Component {
-    private btns: eui.ToggleButton[];
-
+    private btns;
+    private _mbtnFocused;
     private mbtnHome; // 首页
     private mbtnTeam; // 阵容
     private mbtnAdventure; // 冒险
     private mbtnChance; // 奇遇
     private mbtnPackage; // 背包
 
+    private _pageFocusedPrev: string;
     private _teamUI: TeamUI;
     private _adventureUI: AdventureUI;
     private _chanceUI: ChanceUI;
     private _packageUI: PackageUI;
+    private _stageUI: StageUI;
+    private _uiFocused: eui.Component;
+    private imgBg: eui.Image;
+    private _pageFocused: string;
 
     private mbtnStage: eui.ToggleButton; // 王者之路
     private mbtnBoss: eui.ToggleButton; // 世界boss
@@ -22,13 +27,6 @@ class HomeUI extends eui.Component {
     private mbtnGuildHall: eui.ToggleButton; // 工会大厅
     private mbtnThomas: eui.ToggleButton; // 扭蛋机
     private mbtnResearchCenter: eui.ToggleButton; // 研究中心
-    private _mbtnFocused: eui.ToggleButton;
-
-    private _stageUI: StageUI;
-
-    private _uiFocused: eui.Component;
-    private imgBg: eui.Image;
-    private _pageFocused: string;
 
     constructor() {
         super();
@@ -60,7 +58,7 @@ class HomeUI extends eui.Component {
             this._uiFocused = null;
         }
         if (this._mbtnFocused != null) {
-            this._mbtnFocused.selected = false;
+            this._mbtnFocused.getChildByName('mbtn').selected = false;
             this._mbtnFocused.enabled = true;
             this._mbtnFocused = null;
         }
@@ -87,7 +85,7 @@ class HomeUI extends eui.Component {
         /// 移除上一焦点对应的按钮
         //console.log( 'remove _mbtnFocused:', this._mbtnFocused );
         if (this._mbtnFocused) {
-            this._mbtnFocused.selected = false;
+            this._mbtnFocused.getChildByName('mbtn').selected = false;
             this._mbtnFocused.enabled = true;
         }
         /// 移除上一焦点对应的UI
@@ -105,9 +103,9 @@ class HomeUI extends eui.Component {
         this._pageFocusedPrev = this._pageFocused;
         switch (this._mbtnFocused) {
             case this.mbtnHome:
-                this.resetFocus();
-                this.goHome();
                 this._pageFocused = GamePages.HOME;
+                // this.resetFocus();
+                this.goHome();
                 return;
             case this.mbtnStage:
                 this._pageFocused = GamePages.STAGE;
@@ -127,7 +125,6 @@ class HomeUI extends eui.Component {
         }
         this.dispatchEventWith(GameEvents.EVT_LOAD_PAGE, false, this._pageFocused);
     }
-    private _pageFocusedPrev: string;
 
     createChildren(): void {
         super.createChildren();
@@ -138,7 +135,7 @@ class HomeUI extends eui.Component {
 
         // 页面加载完成，所有非焦点按钮解锁
         for (var i: number = this.btns.length - 1; i > -1; --i) {
-            this.btns[i].enabled = !this.btns[i].selected;
+            this.btns[i].enabled = !this.btns[i].getChildByName('mbtn').selected;
         }
 
         switch (pageName) {
