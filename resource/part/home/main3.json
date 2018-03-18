@@ -1,0 +1,385 @@
+{
+    "file": "main3.png",
+    "frames": {
+        "btn_friend": {
+            "x": 176,
+            "y": 208,
+            "w": 69,
+            "h": 65,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 71,
+            "sourceH": 65
+        },
+        "btn_mail": {
+            "x": 149,
+            "y": 275,
+            "w": 57,
+            "h": 57,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 57,
+            "sourceH": 57
+        },
+        "btn_main": {
+            "x": 0,
+            "y": 145,
+            "w": 60,
+            "h": 29,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 60,
+            "sourceH": 30
+        },
+        "btn_nd": {
+            "x": 90,
+            "y": 270,
+            "w": 57,
+            "h": 57,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 61,
+            "sourceH": 57
+        },
+        "btn_qiyu": {
+            "x": 213,
+            "y": 334,
+            "w": 61,
+            "h": 26,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 61,
+            "sourceH": 26
+        },
+        "btn_recharge": {
+            "x": 427,
+            "y": 254,
+            "w": 57,
+            "h": 57,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 57,
+            "sourceH": 57
+        },
+        "btn_sc": {
+            "x": 309,
+            "y": 241,
+            "w": 57,
+            "h": 60,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 57,
+            "sourceH": 60
+        },
+        "btn_sd": {
+            "x": 247,
+            "y": 241,
+            "w": 60,
+            "h": 58,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 60,
+            "sourceH": 58
+        },
+        "btn_task": {
+            "x": 368,
+            "y": 254,
+            "w": 57,
+            "h": 57,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 57,
+            "sourceH": 57
+        },
+        "btn_team": {
+            "x": 244,
+            "y": 301,
+            "w": 56,
+            "h": 30,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 56,
+            "sourceH": 30
+        },
+        "btn_top_bar": {
+            "x": 208,
+            "y": 275,
+            "w": 34,
+            "h": 57,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 34,
+            "sourceH": 57
+        },
+        "desc_black_1": {
+            "x": 375,
+            "y": 213,
+            "w": 94,
+            "h": 39,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 94,
+            "sourceH": 43
+        },
+        "fruit_title_bg": {
+            "x": 0,
+            "y": 100,
+            "w": 209,
+            "h": 43,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 209,
+            "sourceH": 43
+        },
+        "fruit_title_txt_gs": {
+            "x": 358,
+            "y": 313,
+            "w": 54,
+            "h": 31,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 54,
+            "sourceH": 31
+        },
+        "fruit_title_txt_gy": {
+            "x": 302,
+            "y": 303,
+            "w": 54,
+            "h": 31,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 54,
+            "sourceH": 31
+        },
+        "fruit_txt_qxzzz": {
+            "x": 247,
+            "y": 208,
+            "w": 126,
+            "h": 31,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 126,
+            "sourceH": 31
+        },
+        "handbook_icon": {
+            "x": 469,
+            "y": 0,
+            "w": 39,
+            "h": 53,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 39,
+            "sourceH": 53
+        },
+        "img_broadcast": {
+            "x": 346,
+            "y": 135,
+            "w": 36,
+            "h": 36,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 39,
+            "sourceH": 36
+        },
+        "img_hand_frame": {
+            "x": 398,
+            "y": 135,
+            "w": 89,
+            "h": 76,
+            "offX": 0,
+            "offY": 2,
+            "sourceW": 89,
+            "sourceH": 78
+        },
+        "jlw_name_bg": {
+            "x": 346,
+            "y": 69,
+            "w": 108,
+            "h": 64,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 108,
+            "sourceH": 64
+        },
+        "small_fg_bg": {
+            "x": 486,
+            "y": 213,
+            "w": 24,
+            "h": 40,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 24,
+            "sourceH": 40
+        },
+        "tab_btn_bg": {
+            "x": 0,
+            "y": 208,
+            "w": 88,
+            "h": 66,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 88,
+            "sourceH": 66
+        },
+        "tab_btn_bg2": {
+            "x": 90,
+            "y": 208,
+            "w": 84,
+            "h": 60,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 84,
+            "sourceH": 60
+        },
+        "title_duizhanzhongxin": {
+            "x": 276,
+            "y": 336,
+            "w": 74,
+            "h": 21,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 74,
+            "sourceH": 21
+        },
+        "title_ghdt": {
+            "x": 414,
+            "y": 313,
+            "w": 76,
+            "h": 21,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 76,
+            "sourceH": 21
+        },
+        "title_jlw": {
+            "x": 414,
+            "y": 336,
+            "w": 56,
+            "h": 21,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 56,
+            "sourceH": 21
+        },
+        "title_lmds": {
+            "x": 62,
+            "y": 145,
+            "w": 80,
+            "h": 21,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 80,
+            "sourceH": 21
+        },
+        "title_ndj": {
+            "x": 0,
+            "y": 335,
+            "w": 57,
+            "h": 21,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 57,
+            "sourceH": 21
+        },
+        "title_wzzl": {
+            "x": 136,
+            "y": 334,
+            "w": 75,
+            "h": 21,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 75,
+            "sourceH": 21
+        },
+        "title_yjzx": {
+            "x": 59,
+            "y": 329,
+            "w": 75,
+            "h": 21,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 75,
+            "sourceH": 21
+        },
+        "top_bar_shop_add": {
+            "x": 486,
+            "y": 255,
+            "w": 24,
+            "h": 26,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 24,
+            "sourceH": 26
+        },
+        "top_info_bg": {
+            "x": 230,
+            "y": 0,
+            "w": 237,
+            "h": 67,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 237,
+            "sourceH": 67
+        },
+        "bg_tabbarview": {
+            "x": 0,
+            "y": 0,
+            "w": 228,
+            "h": 98,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 229,
+            "sourceH": 98
+        },
+        "broadcast_bg": {
+            "x": 0,
+            "y": 177,
+            "w": 396,
+            "h": 29,
+            "offX": 7,
+            "offY": 0,
+            "sourceW": 412,
+            "sourceH": 29
+        },
+        "btn_activity": {
+            "x": 0,
+            "y": 276,
+            "w": 57,
+            "h": 57,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 57,
+            "sourceH": 57
+        },
+        "btn_adventure": {
+            "x": 230,
+            "y": 69,
+            "w": 114,
+            "h": 106,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 114,
+            "sourceH": 108
+        },
+        "btn_bag": {
+            "x": 144,
+            "y": 145,
+            "w": 60,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 60,
+            "sourceH": 28
+        },
+        "btn_chat": {
+            "x": 456,
+            "y": 69,
+            "w": 51,
+            "h": 49,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 51,
+            "sourceH": 49
+        }
+    }
+}

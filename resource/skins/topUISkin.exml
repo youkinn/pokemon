@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="750" height="165" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <w:Config id="16234f621fc" />
+    <e:Group width="100%" height="115" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+        <e:Image width="237" height="67" y="0" anchorOffsetY="0" source="main3_json.top_info_bg" fillMode="scale"
+                 anchorOffsetX="0" skewY="180" x="370" scaleX="1.5625" scaleY="1.5625" />
+        <e:Image width="50%" height="104.6875" x="375" y="0" anchorOffsetY="0" fillMode="scale" anchorOffsetX="0"
+                 source="main3_json.top_info_bg" />
+        <e:ToggleButton id="mbtnVip" label="" x="60" y="9" width="34" height="57" scaleX="1.5625" scaleY="1.5625"
+                        anchorOffsetX="0" anchorOffsetY="0" skewY="180">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main3_json.btn_top_bar" source.down="main3_json.btn_top_bar"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+
+        </e:ToggleButton>
+        <e:ToggleButton id="mbtnBuy" label="" x="686.88" y="9" width="34" height="57" scaleX="1.5625" scaleY="1.5625">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="main3_json.btn_top_bar" source.down="main3_json.btn_top_bar"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+
+        </e:ToggleButton>
+        <e:Group width="210" height="30" x="70" y="19" anchorOffsetX="0" anchorOffsetY="0">
+            <e:Image width="29" height="29" x="0" y="-8" source="main2_json.level_circle" scaleX="1.5625" scaleY="1.5625"
+                     left="-1" />
+            <e:Label text="173" anchorOffsetX="0" width="100%" anchorOffsetY="0" height="30" textAlign="left"
+                     strokeColor="0xffffff" size="26" left="0" verticalCenter="0" verticalAlign="middle"  fontFamily="Microsoft YaHei" bold="true"/>
+        </e:Group>
+        <e:Group width="89" height="76" x="307.5" y="-2.5" scaleX="1.5625" scaleY="1.5625">
+            <e:Image width="100%" height="100%" source="22000_1_1_png" scaleX="1.5625" scaleY="1.5625"  verticalCenter="0" horizontalCenter="0"/>
+            <e:ToggleButton label="" width="89" height="76" horizontalCenter="0" verticalCenter="0">
+                <e:skinName>
+                    <e:Skin states="up,down,disabled">
+                        <e:Image width="100%" height="100%" source="main3_json.img_hand_frame"
+                                 source.down="main3_json.img_hand_frame" />
+                        <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+                    </e:Skin>
+                </e:skinName>
+            </e:ToggleButton>
+        </e:Group>
+    </e:Group>
+	<e:Group width="100%" height="26" x="0" y="130" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

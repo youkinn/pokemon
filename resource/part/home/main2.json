@@ -1,0 +1,405 @@
+{
+    "file": "main2.png",
+    "frames": {
+        "arena_num_1": {
+            "x": 464,
+            "y": 57,
+            "w": 29,
+            "h": 49,
+            "offX": 0,
+            "offY": 4,
+            "sourceW": 29,
+            "sourceH": 53
+        },
+        "arena_num_2": {
+            "x": 136,
+            "y": 226,
+            "w": 26,
+            "h": 37,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 26,
+            "sourceH": 37
+        },
+        "arena_num_3": {
+            "x": 108,
+            "y": 226,
+            "w": 26,
+            "h": 37,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 26,
+            "sourceH": 37
+        },
+        "bag_full": {
+            "x": 464,
+            "y": 108,
+            "w": 33,
+            "h": 33,
+            "offX": 1,
+            "offY": 1,
+            "sourceW": 35,
+            "sourceH": 35
+        },
+        "btn_add_green": {
+            "x": 0,
+            "y": 211,
+            "w": 53,
+            "h": 54,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 53,
+            "sourceH": 54
+        },
+        "btn_plus_blue": {
+            "x": 159,
+            "y": 0,
+            "w": 85,
+            "h": 101,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 85,
+            "sourceH": 101
+        },
+        "catch_ball": {
+            "x": 0,
+            "y": 0,
+            "w": 157,
+            "h": 158,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 157,
+            "sourceH": 158
+        },
+        "combat_plus_img": {
+            "x": 220,
+            "y": 226,
+            "w": 26,
+            "h": 25,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 26,
+            "sourceH": 25
+        },
+        "equip_small_bg": {
+            "x": 500,
+            "y": 0,
+            "w": 1,
+            "h": 21,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 1,
+            "sourceH": 21
+        },
+        "exp_bar_bg": {
+            "x": 159,
+            "y": 123,
+            "w": 194,
+            "h": 23,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 195,
+            "sourceH": 23
+        },
+        "exp_bar_green": {
+            "x": 108,
+            "y": 211,
+            "w": 184,
+            "h": 13,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 184,
+            "sourceH": 13
+        },
+        "exp_bar_yellow": {
+            "x": 210,
+            "y": 194,
+            "w": 186,
+            "h": 15,
+            "offX": 0,
+            "offY": 1,
+            "sourceW": 187,
+            "sourceH": 17
+        },
+        "exp_bg": {
+            "x": 0,
+            "y": 160,
+            "w": 480,
+            "h": 18,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 480,
+            "sourceH": 18
+        },
+        "exp_green": {
+            "x": 0,
+            "y": 180,
+            "w": 419,
+            "h": 12,
+            "offX": 1,
+            "offY": 1,
+            "sourceW": 421,
+            "sourceH": 14
+        },
+        "icon_coin_small": {
+            "x": 421,
+            "y": 123,
+            "w": 27,
+            "h": 28,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 27,
+            "sourceH": 28
+        },
+        "icon_crown": {
+            "x": 421,
+            "y": 180,
+            "w": 69,
+            "h": 59,
+            "offX": 0,
+            "offY": 6,
+            "sourceW": 69,
+            "sourceH": 65
+        },
+        "icon_diamond_small": {
+            "x": 480,
+            "y": 241,
+            "w": 21,
+            "h": 21,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 21,
+            "sourceH": 21
+        },
+        "icon_elves": {
+            "x": 482,
+            "y": 143,
+            "w": 27,
+            "h": 27,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 27,
+            "sourceH": 27
+        },
+        "icon_elves2": {
+            "x": 164,
+            "y": 226,
+            "w": 26,
+            "h": 26,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 26,
+            "sourceH": 26
+        },
+        "icon_gongxian_small": {
+            "x": 248,
+            "y": 226,
+            "w": 25,
+            "h": 25,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 25,
+            "sourceH": 25
+        },
+        "icon_honor_small": {
+            "x": 294,
+            "y": 211,
+            "w": 59,
+            "h": 40,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 59,
+            "sourceH": 40
+        },
+        "icon_score_small": {
+            "x": 407,
+            "y": 241,
+            "w": 24,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 24,
+            "sourceH": 24
+        },
+        "img_arrow_small": {
+            "x": 182,
+            "y": 103,
+            "w": 22,
+            "h": 16,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 22,
+            "sourceH": 16
+        },
+        "img_combat_small": {
+            "x": 418,
+            "y": 57,
+            "w": 31,
+            "h": 36,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 31,
+            "sourceH": 36
+        },
+        "img_dia": {
+            "x": 433,
+            "y": 241,
+            "w": 24,
+            "h": 24,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 24,
+            "sourceH": 24
+        },
+        "img_equip_lock": {
+            "x": 55,
+            "y": 211,
+            "w": 51,
+            "h": 55,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 51,
+            "sourceH": 55
+        },
+        "img_small_v": {
+            "x": 459,
+            "y": 241,
+            "w": 19,
+            "h": 26,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 19,
+            "sourceH": 26
+        },
+        "img_star": {
+            "x": 237,
+            "y": 253,
+            "w": 20,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 20,
+            "sourceH": 20
+        },
+        "img_star1": {
+            "x": 215,
+            "y": 253,
+            "w": 20,
+            "h": 20,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 20,
+            "sourceH": 20
+        },
+        "img_star2": {
+            "x": 192,
+            "y": 226,
+            "w": 26,
+            "h": 25,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 26,
+            "sourceH": 25
+        },
+        "level_circle": {
+            "x": 390,
+            "y": 123,
+            "w": 29,
+            "h": 29,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 29,
+            "sourceH": 29
+        },
+        "mc_purple_light": {
+            "x": 246,
+            "y": 0,
+            "w": 88,
+            "h": 96,
+            "offX": 6,
+            "offY": 5,
+            "sourceW": 100,
+            "sourceH": 103
+        },
+        "pgb_achieve": {
+            "x": 0,
+            "y": 194,
+            "w": 208,
+            "h": 15,
+            "offX": 2,
+            "offY": 1,
+            "sourceW": 212,
+            "sourceH": 17
+        },
+        "pgb_bg_achieve": {
+            "x": 246,
+            "y": 98,
+            "w": 216,
+            "h": 23,
+            "offX": 4,
+            "offY": 0,
+            "sourceW": 226,
+            "sourceH": 23
+        },
+        "red_dot": {
+            "x": 192,
+            "y": 253,
+            "w": 21,
+            "h": 21,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 21,
+            "sourceH": 21
+        },
+        "state_chose_red": {
+            "x": 336,
+            "y": 0,
+            "w": 80,
+            "h": 79,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 80,
+            "sourceH": 79
+        },
+        "system_tips_icon": {
+            "x": 355,
+            "y": 211,
+            "w": 50,
+            "h": 41,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 50,
+            "sourceH": 41
+        },
+        "vip_v": {
+            "x": 355,
+            "y": 123,
+            "w": 33,
+            "h": 29,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 33,
+            "sourceH": 29
+        },
+        "vip_v2": {
+            "x": 159,
+            "y": 103,
+            "w": 21,
+            "h": 18,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 21,
+            "sourceH": 18
+        },
+        "yhd_already_get": {
+            "x": 418,
+            "y": 0,
+            "w": 80,
+            "h": 55,
+            "offX": 0,
+            "offY": 0,
+            "sourceW": 80,
+            "sourceH": 55
+        }
+    }
+}

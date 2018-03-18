@@ -5,15 +5,31 @@
 			"name": "loading"
 		},
 		{
-			"keys": "description_json,build_png,building_png,dogs_png,index_json,king_png,main_bg_png,main12_png,mountain_png,others_png,home_bg,building,common_bg_jpg",
+			"keys": "description_json,build_png,building_png,index_json,king_png,main_bg_png,main12_png,mountain_png,home_bg,building,common_bg_jpg,main1_json,main2_json,main3_json,22000_1_1_png",
 			"name": "home"
+		},
+		{
+			"keys": "building",
+			"name": "team"
+		},
+		{
+			"keys": "building",
+			"name": "adventure"
+		},
+		{
+			"keys": "building",
+			"name": "chance"
+		},
+		{
+			"keys": "building",
+			"name": "package"
 		},
 		{
 			"keys": "building",
 			"name": "stage"
 		},
 		{
-			"keys": "handle_png,off_png,on_png,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,animation_png,21000_12_1_png,21000_12_2_png,21000_12_3_png,21000_12_4_png,back_server_png,createRole_main_png,create_chose_role_png,create_role_bg_jpg,create_role_main_jpg,create_role_main_json,login_ball_png,main1_png,role_1_png,role_2_png,role_3_png,role_4_png,role_name_bg_png,build_png,building_png,dogs_png,index_json,king_png,main12_png,main_bg_png,mountain_png,others_png,loading_jpg,loading2_png,toast-bg_png",
+			"keys": "handle_png,off_png,on_png,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,animation_png,21000_12_1_png,21000_12_2_png,21000_12_3_png,21000_12_4_png,back_server_png,createRole_main_png,create_chose_role_png,create_role_bg_jpg,create_role_main_jpg,create_role_main_json,login_ball_png,main1_png,role_1_png,role_2_png,role_3_png,role_4_png,role_name_bg_png,build_png,building_png,index_json,king_png,main12_png,main_bg_png,mountain_png,loading_jpg,loading2_png,toast-bg_png,common_bg2_jpg",
 			"name": "preload"
 		}
 	],
@@ -240,11 +256,6 @@
 			"name": "building_png"
 		},
 		{
-			"url": "part/home/dogs.png",
-			"type": "image",
-			"name": "dogs_png"
-		},
-		{
 			"url": "part/home/index.json",
 			"type": "sheet",
 			"name": "index_json",
@@ -269,11 +280,6 @@
 			"url": "part/home/mountain.png",
 			"type": "image",
 			"name": "mountain_png"
-		},
-		{
-			"url": "part/home/others.png",
-			"type": "image",
-			"name": "others_png"
 		},
 		{
 			"url": "part/loading/loading.jpg",
@@ -303,9 +309,47 @@
 			"subkeys": "building_1,building_2,building_3,building_4,building_5,building_6"
 		},
 		{
-			"name": "common_bg_jpg",
+			"url": "part/home/common_bg.jpg",
 			"type": "image",
-			"url": "part/home/common_bg.jpg"
+			"name": "common_bg_jpg"
+		},
+		{
+			"url": "part/home/common_bg.jpg",
+			"type": "image",
+			"name": "common_bg2_jpg"
+		},
+		{
+			"url": "part/home/main1.json",
+			"type": "sheet",
+			"name": "main1_json",
+			"subkeys": "activity_shader,black_scale9_bg,blue_shader,box_bg_1,box_bg_2,box_bg_3,box_bg_4,box_bg_5,box_bg_6,box_bg_7,box_bg_8,box_big_1,box_big_2,box_big_3,box_big_4,box_big_5,box_big_6,box_big_7,box_big_8,btn_add_blue,btn_blue_1,btn_blue_2,btn_blue_3,btn_blue_4,btn_blue_5,btn_close_red,btn_gray,btn_gray2,btn_gray_big,btn_green_2,btn_main_green,btn_main_yellow,btn_main_yellow2,btn_main_yellow3,btn_next_arrow,btn_purple_1,check_box,check_box_nike,dark_blue_scale9_bg,fruit_box_bg,fruit_box_bg1,fruit_box_sbg,fruit_box_sbg1,fruit_btn_g,gray2_scale9_bg,gray_scale9_bg,img_close_small,level_bg_small,list_item_bg,normal2_scale9_bg,normal3_scale9_bg,normal4_scale9_bg,normal5_scale9_bg,normal6_scale9_bg,normal_scale9_bg,normal_scale9_bg2,shade1,shade2,shade3,shade4,small_red_arrow,tabbtn_normal,tabbtn_normal1,tabbtn_pressed,tabbtn_pressed1,team_qmd_btn_bg,top_desc_bg,top_scale9_bg,top_title_bg,window_title_bg,window_title_light"
+		},
+		{
+			"url": "part/home/main3.png",
+			"type": "image",
+			"name": "main3_png"
+		},
+		{
+			"url": "part/home/main3.json",
+			"type": "sheet",
+			"name": "main3_json",
+			"subkeys": "bg_tabbarview,broadcast_bg,btn_activity,btn_adventure,btn_bag,btn_chat,btn_friend,btn_mail,btn_main,btn_nd,btn_qiyu,btn_recharge,btn_sc,btn_sd,btn_task,btn_team,btn_top_bar,desc_black_1,fruit_title_bg,fruit_title_txt_gs,fruit_title_txt_gy,fruit_txt_qxzzz,handbook_icon,img_broadcast,img_hand_frame,jlw_name_bg,small_fg_bg,tab_btn_bg,tab_btn_bg2,title_duizhanzhongxin,title_ghdt,title_jlw,title_lmds,title_ndj,title_wzzl,title_yjzx,top_bar_shop_add,top_info_bg"
+		},
+		{
+			"url": "part/home/main2.png",
+			"type": "image",
+			"name": "main2_png"
+		},
+		{
+			"url": "part/home/main2.json",
+			"type": "sheet",
+			"name": "main2_json",
+			"subkeys": "arena_num_1,arena_num_2,arena_num_3,bag_full,btn_add_green,btn_plus_blue,catch_ball,combat_plus_img,equip_small_bg,exp_bar_bg,exp_bar_green,exp_bar_yellow,exp_bg,exp_green,icon_coin_small,icon_crown,icon_diamond_small,icon_elves,icon_elves2,icon_gongxian_small,icon_honor_small,icon_score_small,img_arrow_small,img_combat_small,img_dia,img_equip_lock,img_small_v,img_star,img_star1,img_star2,level_circle,mc_purple_light,pgb_achieve,pgb_bg_achieve,red_dot,state_chose_red,system_tips_icon,vip_v,vip_v2,yhd_already_get"
+		},
+		{
+			"url": "part/home/22000_1_1.png",
+			"type": "image",
+			"name": "22000_1_1_png"
 		}
 	]
 }
