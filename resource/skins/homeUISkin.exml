@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+<e:Skin width="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="1334">
 	<e:Image width="480" height="344" x="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1.5625" scaleY="1.5625"
-	         source="home_bg.sky" top="96" locked="true" />
+	         source="home_bg.sky" top="96"  locked="true"/>
 	<e:ToggleButton id="mbtnWarCenter" label="" x="301.56" y="911" width="193" height="262" enabled="true" scaleX="1.5625"
 	                scaleY="1.5625" right="0" locked="true">
 		<e:skinName>
@@ -73,13 +73,13 @@
 	<ns1:TopUI width="100%" height="115" x="0" y="0" anchorOffsetX="0" />
 	<e:Image id="imgBg" source="common_bg_jpg" width="480" height="800" x="0" y="0" scaleX="1.5625" scaleY="1.5625"
 	         visible="false" />
-	<e:Group width="100%" y="66" anchorOffsetY="0" height="165.625" x="0" bottom="0">
+	<e:Group anchorOffsetY="0" x="0" width="100%" bottom="0">
 		<e:Image width="50%" height="100%" x="0" y="0" source="bg_tabbarview" bottom="0" left="0" rotation="720" />
 		<e:Image width="50%" height="100%" x="10" y="10" source="bg_tabbarview" top="0" right="0" anchorOffsetX="0"
 		         anchorOffsetY="0" skewX="0" skewY="180" />
 		<e:Group id="mbtnHome" width="137.5" height="103.125" anchorOffsetX="0" left="16" anchorOffsetY="0" y="0"
 		         bottom="5.625" name="主页">
-			<e:ToggleButton label="" x="37" y="11" anchorOffsetX="0" width="88" anchorOffsetY="0" height="66" left="0" top="0"
+			<e:ToggleButton label="" x="37" y="11" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0"
 			                scaleX="1.5625" scaleY="1.5625" name="mbtn">
 				<e:skinName>
 					<e:Skin states="up,down,disabled">
@@ -93,7 +93,7 @@
 		</e:Group>
 		<e:Group id="mbtnTeam" width="137.5" height="103.125" anchorOffsetX="0" left="126" anchorOffsetY="0" y="0"
 		         bottom="5.625" name="阵容">
-			<e:ToggleButton label="" x="37" y="11" anchorOffsetX="0" width="88" anchorOffsetY="0" height="66" left="0" top="0"
+			<e:ToggleButton label="" x="37" y="11" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0"
 			                scaleX="1.5625" scaleY="1.5625" name="mbtn">
 				<e:skinName>
 					<e:Skin states="up,down,disabled">
@@ -107,7 +107,7 @@
 		</e:Group>
 		<e:Group id="mbtnAdventure" width="114" height="106" anchorOffsetX="0" left="286" anchorOffsetY="0" y="-42" x="10"
 		         scaleY="1.5625" scaleX="1.5625" bottom="0" name="冒险">
-			<e:ToggleButton label="" x="37" y="11" anchorOffsetX="0" width="114" anchorOffsetY="0" height="106" left="0" top="0"
+			<e:ToggleButton label="" x="37" y="11" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0"
 			                name="mbtn">
 				<e:skinName>
 					<e:Skin states="up,down,disabled">
@@ -119,7 +119,7 @@
 		</e:Group>
 		<e:Group id="mbtnChance" width="137.5" height="103.125" anchorOffsetX="0" right="126" anchorOffsetY="0" y="0"
 		         bottom="5.625" name="奇遇">
-			<e:ToggleButton label="" x="37" y="11" anchorOffsetX="0" width="88" anchorOffsetY="0" height="66" left="0" top="0"
+			<e:ToggleButton label="" x="37" y="11" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0"
 			                scaleX="1.5625" scaleY="1.5625" skewY="180" name="mbtn">
 				<e:skinName>
 					<e:Skin states="up,down,disabled">
@@ -133,7 +133,7 @@
 		</e:Group>
 		<e:Group id="mbtnPackage" width="137.5" height="103.125" anchorOffsetX="0" right="16" anchorOffsetY="0" y="0"
 		         bottom="5.625" name="包裹">
-			<e:ToggleButton label="" x="37" y="11" anchorOffsetX="0" width="88" anchorOffsetY="0" height="66" left="0" top="0"
+			<e:ToggleButton label="" x="37" y="11" anchorOffsetX="0" anchorOffsetY="0" left="0" top="0"
 			                scaleX="1.5625" scaleY="1.5625" skewY="180" name="mbtn">
 				<e:skinName>
 					<e:Skin states="up,down,disabled">

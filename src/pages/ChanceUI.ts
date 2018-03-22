@@ -13,13 +13,16 @@ class ChanceUI extends eui.Component {
 
         /// 填充数据
         let dsListHeros: Array<Object> = [];
-        for (let i = 0, j = 13; i < j; i++) {
+        for (let i = 1, j = 14; i < j; i++) {
             dsListHeros.push({
                 image: 'activity' + i + '_png'
             });
         }
         this.listHeros.dataProvider = new eui.ArrayCollection(dsListHeros);
         this.listHeros.itemRenderer = ChanceListIRSkin;
+
+        this.scrListHeros.viewport.validateNow();
+        this.scrListHeros.viewport.scrollV = 0;
     }
 
     protected createChildren(): void {
