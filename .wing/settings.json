@@ -1,4 +1,6 @@
 {
+	"editor.renderWhitespace": "all",
+	"editor.tabSize": 2,
 	"search.exclude": {
 		"**/bin-debug": true,
 		"**/bin-release": true
