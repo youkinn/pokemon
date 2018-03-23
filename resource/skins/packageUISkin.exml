@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e:Skin width="750" height="1334" xmlns:e="http://ns.egret.com/eui">
-	<e:Label text="背包" x="67" y="56" anchorOffsetX="0" width="188" anchorOffsetY="0" height="64" verticalAlign="middle" textAlign="center"/>
+<e:Skin width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:TabBar id="tabBar" width="457" height="200" x="0" y="0" anchorOffsetX="0" dataProvider="{viewStack}">
+		<e:itemRendererSkinName>
+			<e:Skin>
+				<e:ToggleButton label="{data}" x="137" y="112">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+							<e:Image width="100%" height="100%" source="tabbtn_normal" source.down="tabbtn_pressed" />
+							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+						</e:Skin>
+					</e:skinName>
+				</e:ToggleButton>
+			</e:Skin>
+		</e:itemRendererSkinName>
+	</e:TabBar>
+	<e:ViewStack id="viewStack" width="100%" height="400" x="0" y="200" anchorOffsetX="0" selectedIndex="0">
+		<e:Group name="物品" width="100%" height="100%" anchorOffsetX="0">
+			<ns1:GoodsUI width="20" height="20" x="166" y="399" />
+		</e:Group>
+		<e:Group name="装备" width="100%" height="100%" anchorOffsetX="0">
+			<ns1:EquipUI width="20" height="20" x="166" y="399" />
+		</e:Group>
+	</e:ViewStack>
 </e:Skin>
