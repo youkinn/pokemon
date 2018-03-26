@@ -17,7 +17,7 @@
 			"name": "adventure"
 		},
 		{
-			"keys": "activity1_png,activity2_png,activity3_png,activity4_png,activity5_png,activity6_png,activity7_png,activity8_png,activity9_png,activity10_png,activity11_png,activity12_png,activity13_png",
+			"keys": "activity1_png,activity2_png,activity3_png,activity4_png,activity5_png,activity6_png,activity7_png,activity8_png,activity9_png,activity10_png,activity11_png,activity12_png,activity13_png,aitivety_json",
 			"name": "chance"
 		},
 		{
@@ -29,7 +29,11 @@
 			"name": "stage"
 		},
 		{
-			"keys": "handle_png,off_png,on_png,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,animation_png,21000_12_1_png,21000_12_2_png,21000_12_3_png,21000_12_4_png,back_server_png,createRole_main_png,create_chose_role_png,create_role_bg_jpg,create_role_main_jpg,create_role_main_json,login_ball_png,main1_png,role_1_png,role_2_png,role_3_png,role_4_png,role_name_bg_png,build_png,building_png,index_json,king_png,main12_png,main_bg_png,mountain_png,loading_jpg,loading2_png,toast-bg_png,common_bg2_jpg,activity122_png,activity22_png,activity32_png,activity42_png,activity52_png,activity62_png,activity72_png,activity82_png,activity92_png,activity132_png",
+			"keys": "melee_png,diamond-l_png,diamond-m_png,diamond-s_png,gold-l_png,gold-m_png,gold-s_png,skill-l_png,skill-m_png,skill-s_png",
+			"name": "melee"
+		},
+		{
+			"keys": "handle_png,off_png,on_png,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,animation_png,21000_12_1_png,21000_12_2_png,21000_12_3_png,21000_12_4_png,back_server_png,createRole_main_png,create_chose_role_png,create_role_bg_jpg,create_role_main_jpg,create_role_main_json,login_ball_png,main1_png,role_1_png,role_2_png,role_3_png,role_4_png,role_name_bg_png,build_png,building_png,index_json,king_png,main12_png,main_bg_png,mountain_png,loading_jpg,loading2_png,toast-bg_png,common_bg2_jpg,activity122_png,activity22_png,activity32_png,activity42_png,activity52_png,activity62_png,activity72_png,activity82_png,activity92_png,activity132_png,aitivety2_json,diamond-l2_png,diamond-m2_png,diamond-s2_png,gold-l2_png,gold-m2_png,gold-s2_png,melee2_json,skill-l2_png,skill-m2_png,skill-s2_png",
 			"name": "preload"
 		}
 	],
@@ -476,6 +480,118 @@
 			"url": "part/chance/activity13.png",
 			"type": "image",
 			"name": "activity132_png"
+		},
+		{
+			"name": "aitivety_json",
+			"type": "json",
+			"url": "config/aitivety.json"
+		},
+		{
+			"name": "melee_json",
+			"type": "sheet",
+			"url": "part/melee/melee.json",
+			"subkeys": "melee_boss_icon,melee_check,melee_decoration,melee_dongtai,melee_flag_icon,melee_gps_icon,melee_ground_1,melee_ground_2,melee_icon_bg,melee_lv_bg,melee_mini_card_icon,melee_name_bg,melee_radar_icon,melee_top_bg"
+		},
+		{
+			"name": "diamond-l_png",
+			"type": "image",
+			"url": "part/melee/diamond-l.png"
+		},
+		{
+			"name": "diamond-m_png",
+			"type": "image",
+			"url": "part/melee/diamond-m.png"
+		},
+		{
+			"name": "diamond-s_png",
+			"type": "image",
+			"url": "part/melee/diamond-s.png"
+		},
+		{
+			"name": "gold-l_png",
+			"type": "image",
+			"url": "part/melee/gold-l.png"
+		},
+		{
+			"name": "gold-m_png",
+			"type": "image",
+			"url": "part/melee/gold-m.png"
+		},
+		{
+			"name": "gold-s_png",
+			"type": "image",
+			"url": "part/melee/gold-s.png"
+		},
+		{
+			"name": "skill-l_png",
+			"type": "image",
+			"url": "part/melee/skill-l.png"
+		},
+		{
+			"name": "skill-m_png",
+			"type": "image",
+			"url": "part/melee/skill-m.png"
+		},
+		{
+			"name": "skill-s_png",
+			"type": "image",
+			"url": "part/melee/skill-s.png"
+		},
+		{
+			"name": "aitivety2_json",
+			"type": "json",
+			"url": "config/aitivety.json"
+		},
+		{
+			"name": "diamond-l2_png",
+			"type": "image",
+			"url": "part/melee/diamond-l.png"
+		},
+		{
+			"name": "diamond-m2_png",
+			"type": "image",
+			"url": "part/melee/diamond-m.png"
+		},
+		{
+			"name": "diamond-s2_png",
+			"type": "image",
+			"url": "part/melee/diamond-s.png"
+		},
+		{
+			"name": "gold-l2_png",
+			"type": "image",
+			"url": "part/melee/gold-l.png"
+		},
+		{
+			"name": "gold-m2_png",
+			"type": "image",
+			"url": "part/melee/gold-m.png"
+		},
+		{
+			"name": "gold-s2_png",
+			"type": "image",
+			"url": "part/melee/gold-s.png"
+		},
+		{
+			"name": "melee2_json",
+			"type": "sheet",
+			"url": "part/melee/melee.json",
+			"subkeys": "melee_boss_icon,melee_check,melee_decoration,melee_dongtai,melee_flag_icon,melee_gps_icon,melee_ground_1,melee_ground_2,melee_icon_bg,melee_lv_bg,melee_mini_card_icon,melee_name_bg,melee_radar_icon,melee_top_bg"
+		},
+		{
+			"name": "skill-l2_png",
+			"type": "image",
+			"url": "part/melee/skill-l.png"
+		},
+		{
+			"name": "skill-m2_png",
+			"type": "image",
+			"url": "part/melee/skill-m.png"
+		},
+		{
+			"name": "skill-s2_png",
+			"type": "image",
+			"url": "part/melee/skill-s.png"
 		}
 	]
 }

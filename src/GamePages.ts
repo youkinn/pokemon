@@ -13,4 +13,7 @@ class GamePages{
     public static GUILD_HALL:string = 'guildHall'; // 工会大厅
     public static THOMAS:string = 'thomas'; // 扭蛋机
     public static RESEARCH_CENTER:string = 'researchCenter'; // 研究中心
+
+    // 奇遇
+    public static MELEE:string = 'melee'; // 精灵大乱斗
 }

@@ -29,6 +29,7 @@
 
 class Main extends eui.UILayer {
     private _trueLoadingUI:TrueLoadingUI;
+    private _currModule: String;
     private _homeUI:HomeUI;
 
     private _loadingBg: egret.Bitmap;
@@ -189,7 +190,8 @@ class Main extends eui.UILayer {
         this._homeUI = new HomeUI();
         this._homeUI.addEventListener( GameEvents.EVT_LOAD_PAGE, ( evt:egret.Event )=>{
             console.log( 'EVT_LOAD_PAGE:', evt.data );
-            this.loadPage( evt.data );
+            this._currModule = evt.data.module;
+            this.loadPage( evt.data.page );
         }, this );
         this.addChild( this._homeUI );
     }
@@ -205,8 +207,16 @@ class Main extends eui.UILayer {
     }
     
     pageLoadedHandler( name:string ):void{
-        if( name != 'home' ){
-            this._homeUI.pageReadyHandler( this.idLoading );
+        switch (this._currModule){
+            case 'home':
+                if( name != 'home' ){
+                    this._homeUI.pageReadyHandler( this.idLoading );
+                }
+                break;
+            case 'chance':
+                const _chanceUI: ChanceUI = this._homeUI.getChildByName('chance') as ChanceUI;
+                _chanceUI.pageReadyHandler( this.idLoading );
+                break;
         }
         if( this._trueLoadingUI.parent ){
             this._trueLoadingUI.parent.removeChild( this._trueLoadingUI );

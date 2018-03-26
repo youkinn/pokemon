@@ -12,14 +12,14 @@ class HomeUI extends eui.Component {
     private mbtnPackage; // 背包
 
     private _pageFocusedPrev: string;
+    private _uiFocused: eui.Component;
+    private imgBg: eui.Image;
+    private _pageFocused: string;
     private _teamUI: TeamUI;
     private _adventureUI: AdventureUI;
     private _chanceUI: ChanceUI;
     private _packageUI: PackageUI;
     private _stageUI: StageUI;
-    private _uiFocused: eui.Component;
-    private imgBg: eui.Image;
-    private _pageFocused: string;
 
     private mbtnStage: eui.ToggleButton; // 王者之路
     private mbtnBoss: eui.ToggleButton; // 世界boss
@@ -122,7 +122,10 @@ class HomeUI extends eui.Component {
                 this._pageFocused = GamePages.PACKAGE;
                 break;
         }
-        this.dispatchEventWith(GameEvents.EVT_LOAD_PAGE, false, this._pageFocused);
+        this.dispatchEventWith(GameEvents.EVT_LOAD_PAGE, false, {
+            module: 'home',
+            page: this._pageFocused
+        });
     }
 
     createChildren(): void {
@@ -179,6 +182,7 @@ class HomeUI extends eui.Component {
                 this._uiFocused = this._packageUI;
                 break;
         }
+        this._uiFocused.visible = true;
         /// 总是把页面放在背景的上一层！
         this.addChildAt(this._uiFocused, this.getChildIndex(this.imgBg) + 1);
     }
