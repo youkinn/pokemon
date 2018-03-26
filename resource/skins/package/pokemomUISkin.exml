@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.pokemomUISkin" width="400" height="300" xmlns:e="http://ns.egret.com/eui">
+  <e:Label text="精灵列表"></e:Label>
+</e:Skin>

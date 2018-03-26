@@ -1,25 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
-	<e:TabBar id="tabBar" width="457" height="200" x="0" y="0" anchorOffsetX="0" dataProvider="{viewStack}">
-		<e:itemRendererSkinName>
-			<e:Skin>
-				<e:ToggleButton label="{data}" x="137" y="112">
-					<e:skinName>
-						<e:Skin states="up,down,disabled">
-							<e:Image width="100%" height="100%" source="tabbtn_normal" source.down="tabbtn_pressed" />
-							<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
-						</e:Skin>
-					</e:skinName>
-				</e:ToggleButton>
-			</e:Skin>
-		</e:itemRendererSkinName>
-	</e:TabBar>
-	<e:ViewStack id="viewStack" width="100%" height="400" x="0" y="200" anchorOffsetX="0" selectedIndex="0">
+	<e:Scroller width="600" x="0" y="0" scrollPolicyH="auto" scrollPolicyV="off">
+		<e:TabBar id="tabBar" width="100%" x="0" y="0" anchorOffsetX="0" dataProvider="{viewStack}" selectedIndex="0"
+		          scaleX="1.5625" scaleY="1.5625">
+			<e:itemRendererSkinName>
+				<e:Skin>
+					<e:ToggleButton name="" label="{data}" x="0" y="0">
+						<e:skinName>
+							<e:Skin states="up,down,disabled">
+								<e:Image width="100%" height="100%" source="tabbtn_normal" source.down="tabbtn_pressed" />
+								<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xffffff" />
+							</e:Skin>
+						</e:skinName>
+					</e:ToggleButton>
+				</e:Skin>
+			</e:itemRendererSkinName>
+			<e:layout>
+				<e:HorizontalLayout gap="0" horizontalAlign="left" verticalAlign="middle" />
+			</e:layout>
+		</e:TabBar>
+		<e:Skin>
+			<e:HScrollBar visible="false" id="verticalScrollBar" width="8" minHeight="100%" height="100%" right="0">
+				<e:Skin>
+					<e:Image id="thumb" width="8" source="" scale9Grid="1,1,4,4" />
+				</e:Skin>
+			</e:HScrollBar>
+		</e:Skin>
+	</e:Scroller>
+	<e:ViewStack id="viewStack" width="100%" height="400" x="0" y="67.19" anchorOffsetX="0" selectedIndex="0">
 		<e:Group name="物品" width="100%" height="100%" anchorOffsetX="0">
-			<ns1:GoodsUI width="20" height="20" x="166" y="399" />
+			<ns1:GoodsUI width="20" height="20" x="0" y="100" />
 		</e:Group>
 		<e:Group name="装备" width="100%" height="100%" anchorOffsetX="0">
-			<ns1:EquipUI width="20" height="20" x="166" y="399" />
+			<ns1:EquipUI width="20" height="20" x="0" y="100" />
+		</e:Group>
+		<e:Group name="精灵" width="100%" height="100%" anchorOffsetX="0">
+			<ns1:PokemomUI width="20" height="20" x="0" y="100" />
+		</e:Group>
+		<e:Group name="宝钻" width="100%" height="100%" anchorOffsetX="0">
+			<ns1:DiamondUI width="20" height="20" x="0" y="100" />
+		</e:Group>
+		<e:Group name="魂珠" width="100%" height="100%" anchorOffsetX="0">
+			<ns1:SoulbeadUI width="20" height="20" x="0" y="100" />
+		</e:Group>
+		<e:Group name="果实" width="100%" height="100%" anchorOffsetX="0">
+			<ns1:TruitsUI width="20" height="20" x="0" y="100" />
+		</e:Group>
+		<e:Group name="光环" width="100%" height="100%" anchorOffsetX="0">
+			<ns1:TaloUI width="20" height="20" x="0" y="100" />
 		</e:Group>
 	</e:ViewStack>
+	<e:Label id="labelDisplay" text="物品" horizontalCenter="29" verticalCenter="14" size="20" textColor="0xffffff"  anchorOffsetX="0" width="98" anchorOffsetY="0" height="48" scaleX="1.5625" scaleY="1.5625" verticalAlign="middle" textAlign="center"/>
 </e:Skin>
