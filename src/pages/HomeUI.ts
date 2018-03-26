@@ -11,8 +11,8 @@ class HomeUI extends eui.Component {
     private mbtnChance; // 奇遇
     private mbtnPackage; // 背包
 
+    public _uiFocused: eui.Component;
     private _pageFocusedPrev: string;
-    private _uiFocused: eui.Component;
     private imgBg: eui.Image;
     private _pageFocused: string;
     private _teamUI: TeamUI;
@@ -30,8 +30,6 @@ class HomeUI extends eui.Component {
 
     constructor() {
         super();
-
-        //console.log( 'new HomeUI 资源：', RES.getRes( 'commonBg_jpg' ) );
         this.addEventListener(eui.UIEvent.COMPLETE, this.uiCompHandler, this);
         this.skinName = 'resource/skins/homeUISkin.exml';
     }
@@ -83,11 +81,11 @@ class HomeUI extends eui.Component {
         }
 
         /// 移除上一焦点对应的按钮
-        //console.log( 'remove _mbtnFocused:', this._mbtnFocused );
         if (this._mbtnFocused) {
             this._mbtnFocused.getChildByName('mbtn').selected = false;
             this._mbtnFocused.enabled = true;
         }
+
         /// 移除上一焦点对应的UI
         if (this._uiFocused && this._uiFocused.parent) {
             this._uiFocused.parent.removeChild(this._uiFocused);

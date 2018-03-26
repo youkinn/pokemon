@@ -16,7 +16,6 @@ class PackageUI extends eui.Component {
             for (let i = 0, j = this.tabBar.numChildren; i < j; i++) {
                 mtbn = this.tabBar.getChildAt(i).$children[0] as eui.ToggleButton;
                 mtbn.selected = (index === i) ? true : false;
-                console.log(mtbn);
             }
         }, this);
     }

@@ -50,5 +50,5 @@
 			<ns1:TaloUI width="20" height="20" x="0" y="100" />
 		</e:Group>
 	</e:ViewStack>
-	<e:Label id="labelDisplay" text="物品" horizontalCenter="29" verticalCenter="14" size="20" textColor="0xffffff"  anchorOffsetX="0" width="98" anchorOffsetY="0" height="48" scaleX="1.5625" scaleY="1.5625" verticalAlign="middle" textAlign="center"/>
+
 </e:Skin>
