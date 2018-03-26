@@ -21,7 +21,7 @@
 		<e:List id="listActivity" width="100%">
 			<e:itemRendererSkinName>
 				<e:Skin width="700" height="178.125">
-					<e:Image width="448" height="114" y="0" scaleX="1.5625" scaleY="1.5625" horizontalCenter="0" source="{data.image}"
+					<e:Image name="{data.name}" width="448" height="114" y="0" scaleX="1.5625" scaleY="1.5625" horizontalCenter="0" source="{data.image}"
 					         top="0" visible="true" />
 				</e:Skin>
 			</e:itemRendererSkinName>

@@ -1,0 +1,145 @@
+{
+  "file": "melee.png",
+  "frames": {
+    "melee_boss_icon": {
+      "x": 438,
+      "y": 221,
+      "w": 57,
+      "h": 51,
+      "offX": 3,
+      "offY": 2,
+      "sourceW": 62,
+      "sourceH": 54
+    },
+    "melee_check": {
+      "x": 438,
+      "y": 157,
+      "w": 61,
+      "h": 62,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 64,
+      "sourceH": 64
+    },
+    "melee_decoration": {
+      "x": 0,
+      "y": 221,
+      "w": 149,
+      "h": 82,
+      "offX": 10,
+      "offY": 10,
+      "sourceW": 182,
+      "sourceH": 105
+    },
+    "melee_dongtai": {
+      "x": 366,
+      "y": 157,
+      "w": 70,
+      "h": 66,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 70,
+      "sourceH": 66
+    },
+    "melee_flag_icon": {
+      "x": 151,
+      "y": 260,
+      "w": 30,
+      "h": 38,
+      "offX": 5,
+      "offY": 0,
+      "sourceW": 36,
+      "sourceH": 40
+    },
+    "melee_gps_icon": {
+      "x": 254,
+      "y": 221,
+      "w": 38,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 38,
+      "sourceH": 35
+    },
+    "melee_ground_1": {
+      "x": 183,
+      "y": 115,
+      "w": 181,
+      "h": 104,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 181,
+      "sourceH": 104
+    },
+    "melee_ground_2": {
+      "x": 0,
+      "y": 115,
+      "w": 181,
+      "h": 104,
+      "offX": 1,
+      "offY": 0,
+      "sourceW": 182,
+      "sourceH": 105
+    },
+    "melee_icon_bg": {
+      "x": 197,
+      "y": 221,
+      "w": 55,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 55,
+      "sourceH": 24
+    },
+    "melee_lv_bg": {
+      "x": 294,
+      "y": 221,
+      "w": 43,
+      "h": 22,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 43,
+      "sourceH": 22
+    },
+    "melee_mini_card_icon": {
+      "x": 151,
+      "y": 221,
+      "w": 44,
+      "h": 37,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 44,
+      "sourceH": 37
+    },
+    "melee_name_bg": {
+      "x": 366,
+      "y": 115,
+      "w": 137,
+      "h": 40,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 137,
+      "sourceH": 40
+    },
+    "melee_radar_icon": {
+      "x": 197,
+      "y": 247,
+      "w": 35,
+      "h": 36,
+      "offX": 2,
+      "offY": 2,
+      "sourceW": 38,
+      "sourceH": 38
+    },
+    "melee_top_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 482,
+      "h": 113,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 482,
+      "sourceH": 114
+    }
+  }
+}
