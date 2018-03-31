@@ -27,7 +27,12 @@
 		"bin-debug/pages/StageUI.js",
 		"bin-debug/pages/TeamUI.js",
 		"bin-debug/pages/chance/meleeUI.js",
-		"bin-debug/pages/package/equipUI.js",
-		"bin-debug/pages/package/goodsUI.js"
+		"bin-debug/pages/package/DiamondUI.js",
+		"bin-debug/pages/package/EquipUI.js",
+		"bin-debug/pages/package/GoodsUI.js",
+		"bin-debug/pages/package/PokemomUI.js",
+		"bin-debug/pages/package/SoulbeadUI.js",
+		"bin-debug/pages/package/TaloUI.js",
+		"bin-debug/pages/package/TruitsUI.js"
 	]
 }

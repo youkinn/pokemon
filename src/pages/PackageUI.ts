@@ -9,17 +9,14 @@ class PackageUI extends eui.Component {
     }
 
     private uiCompHandler(e: egret.Event): void {
-        // //将 tabBat 的数据源设置为 viewStack
-        // this.tTabBar.dataProvider = [];
-        // const arr = [{ label: '物品' }, { label: '装备' }];
-        // let collection = new eui.ArrayCollection();
-        // collection.source = arr;
-        // this.tTabBar.dataProvider = collection;
-        // debugger;
-
-
-
-        // this.tViewStack.selectedIndex = 1;
-        // this.tTabBar.dataProvider = this.tViewStack;
+        let index = 0;
+        let mtbn: eui.ToggleButton;
+        this.tabBar.addEventListener(egret.TouchEvent.TOUCH_TAP, function (e: egret.TouchEvent) {
+            index = this.tabBar.selectedIndex;
+            for (let i = 0, j = this.tabBar.numChildren; i < j; i++) {
+                mtbn = this.tabBar.getChildAt(i).$children[0] as eui.ToggleButton;
+                mtbn.selected = (index === i) ? true : false;
+            }
+        }, this);
     }
 }

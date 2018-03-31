@@ -57,9 +57,10 @@ class ChanceUI extends eui.Component {
         this._uiFocused = this._meleeUI;
         break;
     }
-    /// 总是把页面放在背景的上一层！
+    
+    // 这里将页面放在本页面之上
     this.parent.addChildAt(this._uiFocused, this.parent.getChildIndex(this) + 1);
-    (this.parent as HomeUI)._uiFocused = this._uiFocused;
+    (this.parent as HomeUI)._uiFocused = this._uiFocused; // 保存当前界面引用
     this.visible = false;
   }
 }
