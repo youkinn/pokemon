@@ -12,7 +12,7 @@ class HomeUI extends eui.Component {
     private mbtnPackage; // 背包
 
     private _pageFocusedPrev: string;
-    private _uiFocused: eui.Component;
+    public _uiFocused: eui.Component;
     private imgBg: eui.Image;
     private _pageFocused: string;
     private _teamUI: TeamUI;

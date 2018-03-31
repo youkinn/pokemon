@@ -29,7 +29,7 @@
 			"name": "stage"
 		},
 		{
-			"keys": "melee_png,diamond-l_png,diamond-m_png,diamond-s_png,gold-l_png,gold-m_png,gold-s_png,skill-l_png,skill-m_png,skill-s_png",
+			"keys": "melee_png,melee_json,diamond-l_png,diamond-m_png,diamond-s_png,gold-l_png,gold-m_png,gold-s_png,skill-l_png,skill-m_png,skill-s_png",
 			"name": "melee"
 		},
 		{

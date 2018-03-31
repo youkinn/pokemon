@@ -10,8 +10,8 @@
 		"promise/bin/promise.js"
 	],
 	"game": [
+		"bin-debug/AssetAdapter.js",
 		"bin-debug/GameEvent.js",
-		"bin-debug/pages/AdventureUI.js",
 		"bin-debug/GamePages.js",
 		"bin-debug/LoadingUI.js",
 		"bin-debug/Main.js",
@@ -19,7 +19,7 @@
 		"bin-debug/TrueLoadingUI.js",
 		"bin-debug/components/bottomUI.js",
 		"bin-debug/components/topUI.js",
-		"bin-debug/AssetAdapter.js",
+		"bin-debug/pages/AdventureUI.js",
 		"bin-debug/pages/ChanceUI.js",
 		"bin-debug/pages/CreateRoleUI.js",
 		"bin-debug/pages/HomeUI.js",
