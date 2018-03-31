@@ -40,6 +40,10 @@
     {
       "name": "promise",
       "path": "./promise"
+    },
+    {
+      "name": "tiled",
+      "path": "../libsrc/tiled"
     }
   ]
 }
